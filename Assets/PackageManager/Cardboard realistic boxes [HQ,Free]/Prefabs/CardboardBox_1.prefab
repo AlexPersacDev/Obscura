@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 421174}
   - component: {fileID: 3300720}
   - component: {fileID: 2388372}
+  - component: {fileID: 7352809928789070805}
   m_Layer: 0
   m_Name: CardboardBox_1
   m_TagString: Untagged
@@ -25,13 +26,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 188068}
-  m_LocalRotation: {x: 0, y: -0.16103736, z: 0, w: 0.9869483}
+  m_LocalRotation: {x: 0, y: -0.1610354, z: 0, w: 0.9869486}
   m_LocalPosition: {x: 0.24, y: 0.34917682, z: 0.89}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -18.534, z: 0}
 --- !u!33 &3300720
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -81,3 +82,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7352809928789070805
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188068}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7000401, y: 0.7001283, z: 0.7000768}
+  m_Center: {x: 0, y: 0.0043862313, z: -0.00000029802322}

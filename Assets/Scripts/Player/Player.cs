@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     CharacterController controlerPlayer;
 
-    [SerializeField] float speed, gravityScale, piesRad;
+    [SerializeField] float jumplength, speed, gravityScale, piesRad;
     [Header("CheckSphere")]
     [SerializeField] Transform pies;
     [SerializeField] LayerMask whatIsGround;
@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
 
         if (isGrounded() && Input.GetKeyDown(KeyCode.Space))
         {
-           // Jump();
+            Jump();
         }
     }
 
@@ -49,14 +49,14 @@ public class Player : MonoBehaviour
         return Physics.CheckSphere(pies.position, piesRad, whatIsGround);
     }
 
-    //void Jump()
-    //{
-    //    bool isOnGround = isGrounded();
-    //    if (isOnGround)
-    //    {
-    //        moveY.y = 0;
-    //    }
-    //    float jumpign = Mathf.Sqrt(-2 * gravityScale * jumplength);
-    //    moveY = new Vector3(0, jumpign, 0);
-    //}
+    void Jump()
+    {
+        bool isOnGround = isGrounded();
+        if (isOnGround)
+        {
+            moveY.y = 0;
+        }
+        float jumpign = Mathf.Sqrt(-2 * gravityScale * jumplength);
+        moveY = new Vector3(0, jumpign, 0);
+    }
 }
