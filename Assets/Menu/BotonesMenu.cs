@@ -24,14 +24,18 @@ public class BotonesMenu : MonoBehaviour
     }
     public void Opciones()
     {
-
+        SceneManager.LoadScene("MenuOpciones");
     }
     public void Salir()
     {
-
+        Application.Quit();
     }
     public void CalidadGrafica(int indiceCalidad)
     {
         QualitySettings.SetQualityLevel(indiceCalidad);
+    }
+    public void Exit()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }
