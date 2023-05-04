@@ -20,7 +20,7 @@ public class BotonesMenu : MonoBehaviour
 
     public void Empezar()
     {
-        SceneManager.LoadScene("Blocking_01");
+        SceneManager.LoadScene("Beta");
     }
     public void Opciones()
     {
