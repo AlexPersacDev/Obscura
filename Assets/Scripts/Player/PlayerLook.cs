@@ -42,5 +42,23 @@ public class PlayerLook : MonoBehaviour
 
         rotacionX = Mathf.Clamp(rotacionX, -90, 90);
         transform.localEulerAngles = new Vector3(rotacionX, 0, 0); //afecta solo localmente
+        DetectInteractuable();
     }
+
+    void DetectInteractuable()
+    {
+        Ray ray = new Ray(transform.position, transform.forward);
+        if (Physics.Raycast(ray, radiusInteract, interact))
+        {
+            Debug.Log("AA");
+        }
+        else
+          Debug.Log("BBB");
+
+        Debug.DrawRay(ray.origin, ray.direction * 100);
+    }
+    //private void OnDrawGizmos()
+    //{
+    //    Gizmos.DrawLine(transform.position, new Vector3(0, 0, transform.position.z));
+    //}
 }
