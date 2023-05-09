@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class BotonesMenu : MonoBehaviour
 {
-    
+    [SerializeField] GameObject EmptyPantalla;
+    [SerializeField] GameObject EmptySonido;
     void Start()
     {
         
@@ -37,5 +38,15 @@ public class BotonesMenu : MonoBehaviour
     public void Exit()
     {
         SceneManager.LoadScene("MainMenu");
+    }
+    public void AjustesPantalla()
+    {
+        EmptyPantalla.SetActive(true);
+        EmptySonido.SetActive(false);
+    }
+    public void AjustesSonido()
+    {
+        EmptySonido.SetActive(true);
+        EmptyPantalla.SetActive(false);
     }
 }
