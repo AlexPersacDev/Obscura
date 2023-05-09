@@ -71,7 +71,6 @@ public class PlayerLook : MonoBehaviour
             }
             currentInteractuable = null; //vacio la variable
         }
-        Debug.DrawRay(ray.origin, ray.direction * 100);
     }
     //private void OnDrawGizmos()
     //{
