@@ -100,3 +100,4 @@ Received Import Request.
 Start importing Assets/Scenes/Beta.unity using Guid(d8425239746ae2a429e01c4ef44b87e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5cf99fff18041f66075e7fb8585bb4') in 0.009345 seconds
   Import took 0.012459 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
