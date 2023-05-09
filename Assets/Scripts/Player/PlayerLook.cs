@@ -14,8 +14,8 @@ public class PlayerLook : MonoBehaviour
     [SerializeField] Transform interactPos;
     [SerializeField] float radiusInteract;
     [SerializeField] LayerMask interact;
- 
 
+    GameObject currentInteractuable;
 
     void Start()
     {
@@ -48,13 +48,29 @@ public class PlayerLook : MonoBehaviour
     void DetectInteractuable()
     {
         Ray ray = new Ray(transform.position, transform.forward);
-        if (Physics.Raycast(ray, radiusInteract, interact))
+        if (Physics.Raycast(ray, out RaycastHit hit, radiusInteract, interact)) //si detecto algo con el raycast que tenga la layermas interact
         {
-            Debug.Log("AA");
+            GameObject actualInteractuable = hit.transform.gameObject; //recojo el gameobject detectado 
+            //compruebo si tengo guardado un interactuable
+            if (!currentInteractuable) //si no tengo
+            {
+                currentInteractuable = actualInteractuable; //hago que el current seal el objeto detectado
+            }
+            else//si tengo guardado un interactuable
+            {
+                currentInteractuable.GetComponent<Outline>().enabled = false; //desactivo el outline del guardado
+                currentInteractuable = actualInteractuable; //hago que el current seal el objeto detectado
+            }
+            currentInteractuable.GetComponent<Outline>().enabled = true; //activo su script;
         }
-        else
-          Debug.Log("BBB");
-
+        else //si no he detctado nada interactuable
+        {
+            if (currentInteractuable)//compruebo si tengo guardado algo en currentinteractuable
+            {
+                currentInteractuable.GetComponent<Outline>().enabled = false; //desactivo el outline del guardado
+            }
+            currentInteractuable = null; //vacio la variable
+        }
         Debug.DrawRay(ray.origin, ray.direction * 100);
     }
     //private void OnDrawGizmos()
