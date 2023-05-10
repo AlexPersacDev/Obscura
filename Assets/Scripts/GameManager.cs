@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] GameObject[] PhotosCorck;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +15,16 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void ActivatePhoto()
+    {
+        for (int i = 0; i < PhotosCorck.Length; i++)
+        {
+            if (!PhotosCorck[i].activeSelf) // !!!! se activan todas
+            {
+                PhotosCorck[i].SetActive(true);
+            }
+        }
     }
 }

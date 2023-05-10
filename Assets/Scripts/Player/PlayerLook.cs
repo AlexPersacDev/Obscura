@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class PlayerLook : MonoBehaviour
 {
+    [SerializeField] GameManager gM;
+
+
     [SerializeField] float sensibility;
     [SerializeField] GameObject playerBody;
 
@@ -16,15 +19,22 @@ public class PlayerLook : MonoBehaviour
     [SerializeField] LayerMask interact;
 
     GameObject currentInteractuable;
+    bool interacting;
+
+    GameObject[] Photos = new GameObject[9];
+    int pIndex;
+    [SerializeField] GameObject Photo1;
 
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;   //Oculta el cursor
+        Photos[0] = Photo1;
     }
 
     void Update()
     {
         CameraMovement();
+        Interaction();
     }
 
     void CameraMovement()
@@ -50,6 +60,7 @@ public class PlayerLook : MonoBehaviour
         Ray ray = new Ray(transform.position, transform.forward);
         if (Physics.Raycast(ray, out RaycastHit hit, radiusInteract, interact)) //si detecto algo con el raycast que tenga la layermas interact
         {
+            interacting = true;
             GameObject actualInteractuable = hit.transform.gameObject; //recojo el gameobject detectado 
             //compruebo si tengo guardado un interactuable
             if (!currentInteractuable) //si no tengo
@@ -72,8 +83,24 @@ public class PlayerLook : MonoBehaviour
             currentInteractuable = null; //vacio la variable
         }
     }
-    //private void OnDrawGizmos()
-    //{
-    //    Gizmos.DrawLine(transform.position, new Vector3(0, 0, transform.position.z));
-    //}
+
+    void Interaction()
+    {
+        if (interacting && Input.GetKeyDown(KeyCode.E)) //si el raycast detecta interactuable y pulso E
+        {
+            if (currentInteractuable.CompareTag("Corck")) //y el tag del interactuable es corck
+            {
+                if (Photos[pIndex]) //si tengo la foto
+                {
+                    gM.ActivatePhoto();//la activo
+                    //Photos[pIndex] = null; //la elimino para evitar errores
+                    pIndex++; //sumo uno mas al indice
+                }
+            }
+            else if (currentInteractuable.CompareTag("Photo"))
+            {
+
+            }
+        }
+    }
 }
