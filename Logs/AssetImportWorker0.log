@@ -153,3 +153,80 @@ Received Import Request.
 Start importing Assets/Scenes/Beta.unity using Guid(d8425239746ae2a429e01c4ef44b87e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c108b4f53f39e1ce2d1370391f3f05') in 0.003073 seconds
   Import took 0.008762 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001913 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.3 MB.
+System memory in use after: 115.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3024.
+Total: 2.747700 ms (FindLiveObjects: 0.493500 ms CreateObjectMapping: 0.147200 ms MarkObjects: 2.083600 ms  DeleteObjects: 0.021200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 640.533108 seconds.
+  path: Assets/Texturas/F1
+  artifactKey: Guid(7d8fec05b01c0aa4292454545c7b0a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/F1 using Guid(7d8fec05b01c0aa4292454545c7b0a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09a703537a8901ca7049c50ced7b6cd') in 0.018028 seconds
+  Import took 0.023492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048877 seconds.
+  path: Assets/Texturas/F1/lambert1_Base_color.png
+  artifactKey: Guid(b4a62370295f8b2428f6ae1b04cd733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/F1/lambert1_Base_color.png using Guid(b4a62370295f8b2428f6ae1b04cd733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbca839ce0d3afcd11eecd414b50d8f0') in 0.067933 seconds
+  Import took 0.072597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Texturas/F1/lambert1_Roughness.png
+  artifactKey: Guid(808f149da998b8c48ad5f6abc90bc821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/F1/lambert1_Roughness.png using Guid(808f149da998b8c48ad5f6abc90bc821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a1f21f73b4bbe1d2c654ef5de74af2') in 0.019120 seconds
+  Import took 0.023602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Texturas/F1/lambert1_Normal_DirectX.png
+  artifactKey: Guid(f8dfc75de591cc842856f6316e009817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/F1/lambert1_Normal_DirectX.png using Guid(f8dfc75de591cc842856f6316e009817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195dc740ed128022eb16596ae59ca7c4') in 0.017954 seconds
+  Import took 0.022528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Texturas/F1/lambert1_Height.png
+  artifactKey: Guid(2ed0a1dc3e390aa4f9ebe3dd3070a2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/F1/lambert1_Height.png using Guid(2ed0a1dc3e390aa4f9ebe3dd3070a2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f73f911204f07904f855a34c5fde41') in 0.015156 seconds
+  Import took 0.019429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Texturas/F1/lambert1_Metallic.png
+  artifactKey: Guid(6e20d2dfb769fca429b9b84d5cc5e2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/F1/lambert1_Metallic.png using Guid(6e20d2dfb769fca429b9b84d5cc5e2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5310ba66095f9cb3f301b46fa085ea') in 0.017829 seconds
+  Import took 0.022531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Texturas/F1/lambert1_Normal.png
+  artifactKey: Guid(58aa9e2fbbd65c64494c49e197db0094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/F1/lambert1_Normal.png using Guid(58aa9e2fbbd65c64494c49e197db0094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46bc3eee21a1c2b6e3ff2db2debdf06') in 0.014728 seconds
+  Import took 0.019465 seconds .
+
