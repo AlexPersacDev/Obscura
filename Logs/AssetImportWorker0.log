@@ -113,3 +113,45 @@ System memory in use after: 116.2 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3022.
 Total: 2.153500 ms (FindLiveObjects: 0.236700 ms CreateObjectMapping: 0.114000 ms MarkObjects: 1.779900 ms  DeleteObjects: 0.022100 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001928 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.969 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.0 MB.
+System memory in use after: 116.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3025.
+Total: 2.227900 ms (FindLiveObjects: 0.252700 ms CreateObjectMapping: 0.114200 ms MarkObjects: 1.835800 ms  DeleteObjects: 0.023900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002010 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.0 MB.
+System memory in use after: 116.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3028.
+Total: 2.421700 ms (FindLiveObjects: 0.238400 ms CreateObjectMapping: 0.113300 ms MarkObjects: 2.043100 ms  DeleteObjects: 0.025200 ms)
+

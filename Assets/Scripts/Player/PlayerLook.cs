@@ -22,7 +22,7 @@ public class PlayerLook : MonoBehaviour
     bool interacting;
 
     List<GameObject> photos = new List<GameObject>();
-    List<GameObject> brokenPhotos = new List<GameObject>();
+    GameObject[] brokenPhotos = new GameObject[3];
     int pIndex;
     [SerializeField] GameObject photo1;
     int contadorTrozos;
@@ -102,7 +102,7 @@ public class PlayerLook : MonoBehaviour
             }
             else if (currentInteractuable.CompareTag("Photo")) //si interactuo con algo nombrado como foto
             {
-                for (int i = 0; i < 3; i++) //recorro la lista de broken photos
+                for (int i = 0; i < brokenPhotos.Length; i++) //recorro la lista de broken photos
                 {
                     if (!brokenPhotos[i])//si este espacio no esta ocupado
                     {
