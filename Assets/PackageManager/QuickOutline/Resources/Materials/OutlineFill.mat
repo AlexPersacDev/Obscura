@@ -20,8 +20,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _OutlineWidth: 2
+    - _OutlineWidth: 8
     - _ZTest: 8
     m_Colors:
-    - _OutlineColor: {r: 0.06270105, g: 1, b: 0.042452812, a: 1}
+    - _OutlineColor: {r: 1, g: 0.4, b: 0, a: 0.7882353}
   m_BuildTextureStacks: []
