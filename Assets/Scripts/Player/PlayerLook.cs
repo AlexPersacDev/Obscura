@@ -77,6 +77,7 @@ public class PlayerLook : MonoBehaviour
         }
         else //si no he detctado nada interactuable
         {
+            interacting = false;
             if (currentInteractuable)//compruebo si tengo guardado algo en currentinteractuable
             {
                 currentInteractuable.GetComponent<Outline>().enabled = false; //desactivo el outline del guardado
@@ -100,7 +101,7 @@ public class PlayerLook : MonoBehaviour
                     }
                 }
             }
-            else if (currentInteractuable.CompareTag("Photo")) //si interactuo con algo nombrado como foto
+            else if (currentInteractuable.CompareTag("BrokenPhoto")) //si interactuo con algo nombrado como foto
             {
                 for (int i = 0; i < brokenPhotos.Length; i++) //recorro la lista de broken photos
                 {
@@ -116,6 +117,11 @@ public class PlayerLook : MonoBehaviour
                         break;
                     }
                 }
+            }
+            else if (currentInteractuable.CompareTag("Photo"))//Compruebo si el objeto tiene el tag foto
+            {
+                photos.Add(photo1);//añadir uno al array de foto
+                Destroy(currentInteractuable);//deberia eliminarlo de la escena
             }
         }
     }

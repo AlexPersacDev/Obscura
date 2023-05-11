@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Photo
   - Corck
+  - BrokenPhoto
   layers:
   - Default
   - TransparentFX
