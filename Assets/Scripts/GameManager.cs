@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
 
     public void ActivatePhoto()
     {
-        Debug.Log("EE");
+
         PhotosCorck[photosIndex].SetActive(true);//activo la foto en este indice
         photosIndex++; //sumo el indice para avanzar en el array
     }
