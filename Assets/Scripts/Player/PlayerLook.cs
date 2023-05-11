@@ -27,7 +27,7 @@ public class PlayerLook : MonoBehaviour
 
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;   //Oculta el cursor
+        //Cursor.lockState = CursorLockMode.Locked;   //Oculta el cursor
         Photos[0] = Photo1;
     }
 
