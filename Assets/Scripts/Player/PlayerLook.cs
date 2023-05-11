@@ -21,14 +21,15 @@ public class PlayerLook : MonoBehaviour
     GameObject currentInteractuable;
     bool interacting;
 
-    GameObject[] Photos = new GameObject[9];
+    List<GameObject> photos = new List<GameObject>();
+    List<GameObject> brokenPhotos = new List<GameObject>();
     int pIndex;
-    [SerializeField] GameObject Photo1;
-
+    [SerializeField] GameObject photo1;
+    int contadorTrozos;
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;   //Oculta el cursor
-        Photos[0] = Photo1;
+        photos.Add(photo1);
     }
 
     void Update()
@@ -90,16 +91,31 @@ public class PlayerLook : MonoBehaviour
         {
             if (currentInteractuable.CompareTag("Corck")) //y el tag del interactuable es corck
             {
-                if (Photos[pIndex]) //si tengo la foto
+                for (int i = 0; i < photos.Count; i++)//compruebo cuantas fotos tengo 
                 {
-                    gM.ActivatePhoto();//la activo
-                    //Photos[pIndex] = null; //la elimino para evitar errores
-                    pIndex++; //sumo uno mas al indice
+                    if (photos[i])//si el espacio tiene una foto, entro
+                    {
+                        photos.RemoveAt(i);
+                        gM.ActivatePhoto(); //Activo el metodo
+                    }
                 }
             }
-            else if (currentInteractuable.CompareTag("Photo"))
+            else if (currentInteractuable.CompareTag("Photo")) //si interactuo con algo nombrado como foto
             {
-
+                for (int i = 0; i < 3; i++) //recorro la lista de broken photos
+                {
+                    if (!brokenPhotos[i])//si este espacio no esta ocupado
+                    {
+                        brokenPhotos[i] = currentInteractuable;//relleno el hueco con el objeto actual
+                        Destroy(currentInteractuable);//destruyo el pedazo de foto
+                        contadorTrozos++;
+                        if(contadorTrozos == 3)
+                        {
+                            photos.Add(photo1);
+                        }
+                        break;
+                    }
+                }
             }
         }
     }
