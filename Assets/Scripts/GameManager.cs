@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject[] PhotosCorck;
+    int photosIndex;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,12 +20,8 @@ public class GameManager : MonoBehaviour
 
     public void ActivatePhoto()
     {
-        for (int i = 0; i < PhotosCorck.Length; i++)
-        {
-            if (!PhotosCorck[i].activeSelf) // !!!! se activan todas
-            {
-                PhotosCorck[i].SetActive(true);
-            }
-        }
+        Debug.Log("EE");
+        PhotosCorck[photosIndex].SetActive(true);//activo la foto en este indice
+        photosIndex++; //sumo el indice para avanzar en el array
     }
 }
