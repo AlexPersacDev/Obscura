@@ -5,7 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject[] PhotosCorck;
-    int photosIndex;
+    [SerializeField] GameObject[] videosTV;
+    int index;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,8 @@ public class GameManager : MonoBehaviour
     public void ActivatePhoto()
     {
 
-        PhotosCorck[photosIndex].SetActive(true);//activo la foto en este indice
-        photosIndex++; //sumo el indice para avanzar en el array
+        PhotosCorck[index].SetActive(true);//activo la foto en este indice
+        videosTV[index].SetActive(true); //y activo las tvs
+        index++; //sumo el indice para avanzar en el array
     }
 }
