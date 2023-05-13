@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PlayerLook : MonoBehaviour
 {
     [SerializeField] GameManager gM;
-
+    [SerializeField] CanvasManager cM;
 
     [SerializeField] float sensibility;
     [SerializeField] GameObject playerBody;
@@ -54,6 +54,7 @@ public class PlayerLook : MonoBehaviour
         rotacionX = Mathf.Clamp(rotacionX, -90, 90);
         transform.localEulerAngles = new Vector3(rotacionX, 0, 0); //afecta solo localmente
         DetectInteractuable();
+        GeneratingText();
     }
 
     void DetectInteractuable()
@@ -124,5 +125,9 @@ public class PlayerLook : MonoBehaviour
                 Destroy(currentInteractuable);//deberia eliminarlo de la escena
             }
         }
+    }
+    void GeneratingText()
+    {
+
     }
 }
