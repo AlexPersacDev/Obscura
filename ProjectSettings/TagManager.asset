@@ -7,6 +7,7 @@ TagManager:
   - Photo
   - Corck
   - BrokenPhoto
+  - Baul
   layers:
   - Default
   - TransparentFX

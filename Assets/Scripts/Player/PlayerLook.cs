@@ -124,6 +124,10 @@ public class PlayerLook : MonoBehaviour
                 photos.Add(photo1);//añadir uno al array de foto
                 Destroy(currentInteractuable);//deberia eliminarlo de la escena
             }
+            else if (currentInteractuable.CompareTag("Baul"))
+            {
+                gM.OpeningBaul(currentInteractuable);
+            }
         }
     }
     void GeneratingText()
