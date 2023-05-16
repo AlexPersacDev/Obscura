@@ -660,3 +660,25 @@ Received Import Request.
 Start importing Assets/Texturas/Rotas/P3/Foto3_photoRota1_BaseColor.png using Guid(1cf16b300b412f3448cde42cf0e4213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9fb7e07a063844e8a73a6ef6bb2a59') in 0.012566 seconds
   Import took 0.017093 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001923 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.007 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2569 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.5 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3260.
+Total: 2.497800 ms (FindLiveObjects: 0.248400 ms CreateObjectMapping: 0.122300 ms MarkObjects: 2.104100 ms  DeleteObjects: 0.021400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
