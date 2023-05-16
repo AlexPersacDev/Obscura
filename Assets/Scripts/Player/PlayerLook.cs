@@ -36,6 +36,10 @@ public class PlayerLook : MonoBehaviour
     {
         CameraMovement();
         Interaction();
+        if (Input.GetKeyUp(KeyCode.E))
+        {
+            cM.MirillaInteract(false);
+        }
     }
 
     void CameraMovement()
@@ -91,6 +95,7 @@ public class PlayerLook : MonoBehaviour
     {
         if (interacting && Input.GetKeyDown(KeyCode.E)) //si el raycast detecta interactuable y pulso E
         {
+            cM.MirillaInteract(true);
             if (currentInteractuable.CompareTag("Corck")) //y el tag del interactuable es corck
             {
                 for (int i = 0; i < photos.Count; i++)//compruebo cuantas fotos tengo 
