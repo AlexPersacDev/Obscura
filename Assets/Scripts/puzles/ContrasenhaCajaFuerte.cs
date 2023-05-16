@@ -17,11 +17,11 @@ public class ContrasenhaCajaFuerte : MonoBehaviour
 
     [SerializeField] GameObject cajaFuerte;
 
-    [SerializeField] Animator animRueda;
+    Animator animRueda;
 
     private void Start()
     {
-        animRueda = GetComponent<Animator>();
+        animRueda = cajaFuerte.GetComponent<Animator>();
     }
     public void Codigo(string numeros)
     {
@@ -33,8 +33,7 @@ public class ContrasenhaCajaFuerte : MonoBehaviour
     {
         if (num == contra)//se abre la caja fuerte
         {
-            //puertaCajaFuerte.transform.eulerAngles = new Vector3(0, 150, 0);//se rota
-
+          
             //cambia la camara
             playerLook.gameObject.SetActive(true);
             zoomCajaFuerte.gameObject.SetActive(false); 
@@ -44,11 +43,12 @@ public class ContrasenhaCajaFuerte : MonoBehaviour
             //se desactiva el canvas de la contraseña
             canvasContra.SetActive(false);
 
-            cajaFuerte.tag = "Untagged";
+            //hago q deje de ser interactuable
+            cajaFuerte.layer = 0;
 
+            //animacion manivela + abrirse
             animRueda.SetTrigger("AbriendoCaja");
-            //Outline interact= cajaFuerte.GetComponent<Outline>();
-            //interact.enabled = true;
+            
         }
         else//se resetea el num
         {
@@ -56,11 +56,7 @@ public class ContrasenhaCajaFuerte : MonoBehaviour
             num = null;
         }
     }
-    //public void Borrar()
-    //{
-    //    index++;
-    //    num = null;
-    //}
+    
 
 
 }
