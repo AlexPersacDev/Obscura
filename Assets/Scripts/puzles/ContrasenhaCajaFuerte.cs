@@ -5,7 +5,7 @@ using Cinemachine;
 
 public class ContrasenhaCajaFuerte : MonoBehaviour
 {
-    string contra = "3185";
+    string contra = "3815";
     string num = null;
     int index = 0;
 
