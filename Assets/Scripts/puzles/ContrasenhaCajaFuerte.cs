@@ -1,13 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class ContrasenhaCajaFuerte : MonoBehaviour
 {
-    string contra = "3105";
+    string contra = "3185";
     string num = null;
     int index = 0;
 
+    [SerializeField] GameObject puertaCajaFuerte;
+
+    [SerializeField] CinemachineVirtualCamera playerLook;
+    [SerializeField] CinemachineVirtualCamera zoomCajaFuerte;
+    [SerializeField] GameObject canvasContra;
+
+    [SerializeField] GameObject cajaFuerte;
+
+    
     public void Codigo(string numeros)
     {
         index++;
@@ -16,16 +26,34 @@ public class ContrasenhaCajaFuerte : MonoBehaviour
     }
     public void Enter()
     {
-        if (num == contra)
+        if (num == contra)//se abre la caja fuerte
         {
-            Debug.Log("Suuuu");
+            puertaCajaFuerte.transform.eulerAngles = new Vector3(0, 150, 0);//se rota
+
+            //cambia la camara
+            playerLook.gameObject.SetActive(true);
+            zoomCajaFuerte.gameObject.SetActive(false); 
+            //se vuelve a desacvtivar el cursor
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = false;
+            //se desactiva el canvas de la contraseña
+            canvasContra.SetActive(false);
+
+            cajaFuerte.tag = "Untagged";
+            //Outline interact= cajaFuerte.GetComponent<Outline>();
+            //interact.enabled = true;
+        }
+        else//se resetea el num
+        {
+            index++;
+            num = null;
         }
     }
-    public void Borrar()
-    {
-        index++;
-        num = null;
-    }
+    //public void Borrar()
+    //{
+    //    index++;
+    //    num = null;
+    //}
 
 
 }

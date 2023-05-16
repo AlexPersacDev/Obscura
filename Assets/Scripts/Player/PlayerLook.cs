@@ -128,6 +128,11 @@ public class PlayerLook : MonoBehaviour
             {
                 gM.OpeningBaul(currentInteractuable);
             }
+            else if (currentInteractuable.CompareTag("CajaFuerte"))
+            {
+                //llamo al metodo publico del gm
+                gM.InteractuarCajaFuerte();
+            }
         }
     }
     void GeneratingText()
