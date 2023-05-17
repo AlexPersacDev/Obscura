@@ -41,13 +41,14 @@ public class CanvasManager : MonoBehaviour
     }
     public void EnableMirilla()//esto es pa q se quite la mirilla
     {
-        if (mirilla.IsActive())
+        if (mirilla.IsActive()) //Si la mirilla esta activada
         {
-            mirilla.enabled = false;
+            mirilla.gameObject.SetActive(false); //la desactivo
         }
-        else
+        else //si no está activada
         {
-            mirilla.enabled = true;
+            Debug.Log("EE");
+            mirilla.gameObject.SetActive(true); //la activo
         }
     }
 }

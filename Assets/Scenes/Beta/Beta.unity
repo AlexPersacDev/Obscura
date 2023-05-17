@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17423023, g: 0.21788509, b: 0.30009532, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1077,6 +1077,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6a287896e1c40b846bd0979f3c845cf7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 04385605ae14580459a3c449f0cf074b, type: 2}
     - target: {fileID: 919132149155446097, guid: 6a287896e1c40b846bd0979f3c845cf7, type: 3}
       propertyPath: m_Name
       value: Photo
@@ -1580,6 +1584,7 @@ MonoBehaviour:
   zoomCajaFuerte: {fileID: 1811591284}
   canvasContra: {fileID: 229313602}
   cajaFuerte: {fileID: 919132148713966873}
+  cM: {fileID: 1166657836}
 --- !u!1001 &242247207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2281,6 +2286,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6a287896e1c40b846bd0979f3c845cf7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 181d55efd1e495541b32f76f67f92478, type: 2}
     - target: {fileID: 919132149155446097, guid: 6a287896e1c40b846bd0979f3c845cf7, type: 3}
       propertyPath: m_Name
       value: Photo
@@ -5936,7 +5945,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1037374645
 Light:
   m_ObjectHideFlags: 0
@@ -9054,8 +9063,8 @@ MonoBehaviour:
   cM: {fileID: 1166657836}
   PhotosCorck:
   - {fileID: 705905343}
-  - {fileID: 825918901}
   - {fileID: 778868723}
+  - {fileID: 825918901}
   - {fileID: 1685473465}
   - {fileID: 1649236053}
   - {fileID: 599177968}
@@ -9681,7 +9690,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 6a287896e1c40b846bd0979f3c845cf7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 181d55efd1e495541b32f76f67f92478, type: 2}
+      objectReference: {fileID: 2100000, guid: eecb00de7ba680d41b23f0c23342e54a, type: 2}
     - target: {fileID: 919132149155446097, guid: 6a287896e1c40b846bd0979f3c845cf7, type: 3}
       propertyPath: m_Name
       value: Photo3
@@ -10431,7 +10440,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 6a287896e1c40b846bd0979f3c845cf7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: eecb00de7ba680d41b23f0c23342e54a, type: 2}
+      objectReference: {fileID: 2100000, guid: 181d55efd1e495541b32f76f67f92478, type: 2}
     - target: {fileID: 919132149155446097, guid: 6a287896e1c40b846bd0979f3c845cf7, type: 3}
       propertyPath: m_Name
       value: Photo2
@@ -13935,13 +13944,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8640057263186802593}
-  m_LocalRotation: {x: -0.49999985, y: -0.50000155, z: -0.50000006, w: -0.4999985}
-  m_LocalPosition: {x: -14.942297, y: -1.566717, z: 1.5485132}
+  m_LocalRotation: {x: 0.5609841, y: 0.56098294, z: -0.43046105, w: -0.43046287}
+  m_LocalPosition: {x: -14.428, y: -1.566717, z: 1.746}
   m_LocalScale: {x: 1.0237219, y: 1.0237223, z: 1.0237219}
   m_Children: []
   m_Father: {fileID: 878621657}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -104.999, z: 90}
 --- !u!23 &3620580538863466915
 MeshRenderer:
   m_ObjectHideFlags: 0
