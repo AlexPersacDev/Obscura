@@ -6,14 +6,19 @@ using UnityEngine.UI;
 
 public class CanvasManager : MonoBehaviour
 {
+
+    [Header("Textos")]
     [SerializeField] TextMeshProUGUI dialogText;
+    //[SerializeField] string[] dialogs;
     [SerializeField] List<string> dialogs;
     int dialogIndex = 0;
+    bool corutineOn;
 
     [Header("Mirilla")]
     [SerializeField] Texture closedEye;
     [SerializeField] Texture eye;
     [SerializeField] RawImage mirilla;
+
     void Start()
     {
         
@@ -23,11 +28,6 @@ public class CanvasManager : MonoBehaviour
     void Update()
     {
         
-    }
-    public void GenerateText()
-    {
-        dialogText.text = dialogs[dialogIndex];
-        dialogIndex++;
     }
 
     public void MirillaInteract(bool interacting)
@@ -50,5 +50,34 @@ public class CanvasManager : MonoBehaviour
             Debug.Log("EE");
             mirilla.gameObject.SetActive(true); //la activo
         }
+    }
+    public bool CorutineOn()
+    {
+        return corutineOn;
+    }
+
+    public IEnumerator GenerateDialogs(int index)
+    {
+        corutineOn = true;
+        for (int i = 0; i < index; i++)
+        {
+            dialogText.text = dialogs[0];
+            yield return new WaitForSeconds(4);
+            dialogs.RemoveAt(0);
+            dialogText.text = "";
+        }
+        corutineOn = false;
+        index = 0;
+        //for (int i = 0; i < dialogs.Length; i++)
+        //{
+        //    dialogText.text = dialogs[dialogIndex];
+        //    yield return new WaitForSeconds(4);
+        //    dialogIndex++;
+        //    //Debug.Log("aa");
+        //    //dialogs.RemoveAt(0);
+        //    yield return null;
+        //}
+        StopCoroutine(GenerateDialogs(index));
+        
     }
 }

@@ -34,7 +34,10 @@ public class GameManager : MonoBehaviour
 
     public void ActivatePhoto()
     {
-
+        if (!PhotosCorck[0].activeSelf && !cM.CorutineOn())
+        {
+            cM.StartCoroutine(cM.GenerateDialogs(2));
+        }
         PhotosCorck[index].SetActive(true);//activo la foto en este indice
         videosTV[index].SetActive(true); //y activo las tvs
         index++; //sumo el indice para avanzar en el array

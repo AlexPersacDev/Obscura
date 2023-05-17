@@ -26,6 +26,10 @@ public class PlayerLook : MonoBehaviour
     int pIndex;
     [SerializeField] GameObject photo1;
     int contadorTrozos;
+
+
+    bool firstLookOnCrock = true;
+    bool firstLookOnBP = true;
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;   //Oculta el cursor
@@ -93,55 +97,70 @@ public class PlayerLook : MonoBehaviour
 
     void Interaction()
     {
-        if (interacting && Input.GetKeyDown(KeyCode.E)) //si el raycast detecta interactuable y pulso E
+        if (interacting) //si el raycast detecta interactuable 
         {
-            cM.MirillaInteract(true);
-            if (currentInteractuable.CompareTag("Corck")) //y el tag del interactuable es corck
+            if (firstLookOnCrock && !cM.CorutineOn())//si es la primera vez que miro el corcho
             {
-                for (int i = 0; i < photos.Count; i++)//compruebo cuantas fotos tengo 
-                {
-                    if (photos[i])//si el espacio tiene una foto, entro
-                    {
-                        photos.RemoveAt(i);
-                        gM.ActivatePhoto(); //Activo el metodo
-                    }
-                }
+                cM.StartCoroutine(cM.GenerateDialogs(2));
+                firstLookOnCrock = false;
             }
-            else if (currentInteractuable.CompareTag("BrokenPhoto")) //si interactuo con algo nombrado como foto
+            else if (currentInteractuable.CompareTag("BrokenPhoto") && firstLookOnBP && !cM.CorutineOn())
             {
-                for (int i = 0; i < brokenPhotos.Length; i++) //recorro la lista de broken photos
+                cM.StartCoroutine(cM.GenerateDialogs(1));
+                firstLookOnBP = false;
+            }
+            else if (Input.GetKeyDown(KeyCode.E)) //y pulso E
+            {
+
+
+                cM.MirillaInteract(true);
+                if (currentInteractuable.CompareTag("Corck")) //y el tag del interactuable es corck
                 {
-                    if (!brokenPhotos[i])//si este espacio no esta ocupado
+                    for (int i = 0; i < photos.Count; i++)//compruebo cuantas fotos tengo 
                     {
-                        brokenPhotos[i] = currentInteractuable;//relleno el hueco con el objeto actual
-                        Destroy(currentInteractuable);//destruyo el pedazo de foto
-                        contadorTrozos++;
-                        if(contadorTrozos == 3)
+                        if (photos[i])//si el espacio tiene una foto, entro
                         {
-                            photos.Add(photo1);
+                            photos.RemoveAt(i);
+                            gM.ActivatePhoto(); //Activo el metodo
                         }
-                        break;
                     }
                 }
-            }
-            else if (currentInteractuable.CompareTag("Photo"))//Compruebo si el objeto tiene el tag foto
-            {
-                photos.Add(photo1);//añadir uno al array de foto
-                Destroy(currentInteractuable);//deberia eliminarlo de la escena
-            }
-            else if (currentInteractuable.CompareTag("Baul") && gM.ChestKey(currentInteractuable))//compruebo si se tiene la llave
-            {
-                gM.OpeningBaul(currentInteractuable);
-            }
-            else if (currentInteractuable.CompareTag("CajaFuerte"))
-            {
-                //llamo al metodo publico del gm
-                gM.InteractuarCajaFuerte();
-            }
-            else if (currentInteractuable.CompareTag("ChestKey"))
-            {
-                gM.ChestKey(currentInteractuable);//le digo al gm que tengo la llave
-                Destroy(currentInteractuable);
+                else if (currentInteractuable.CompareTag("BrokenPhoto")) //si interactuo con algo nombrado como foto
+                {
+                    for (int i = 0; i < brokenPhotos.Length; i++) //recorro la lista de broken photos
+                    {
+                        if (!brokenPhotos[i])//si este espacio no esta ocupado
+                        {
+                            brokenPhotos[i] = currentInteractuable;//relleno el hueco con el objeto actual
+                            Destroy(currentInteractuable);//destruyo el pedazo de foto
+                            contadorTrozos++;
+                            if (contadorTrozos == 3)
+                            {
+                                photos.Add(photo1);
+                            }
+                            break;
+                        }
+                    }
+                }
+                else if (currentInteractuable.CompareTag("Photo"))//Compruebo si el objeto tiene el tag foto
+                {
+                    photos.Add(photo1);//añadir uno al array de foto
+                    Destroy(currentInteractuable);//deberia eliminarlo de la escena
+                }
+                else if (currentInteractuable.CompareTag("Baul") && gM.ChestKey(currentInteractuable))//compruebo si se tiene la llave
+                {
+                    gM.OpeningBaul(currentInteractuable);
+                }
+                else if (currentInteractuable.CompareTag("CajaFuerte"))
+                {
+                    //llamo al metodo publico del gm
+                    gM.InteractuarCajaFuerte();
+                }
+                else if (currentInteractuable.CompareTag("ChestKey"))
+                {
+                    gM.ChestKey(currentInteractuable);//le digo al gm que tengo la llave
+                    Destroy(currentInteractuable);
+                }
             }
         }
     }
