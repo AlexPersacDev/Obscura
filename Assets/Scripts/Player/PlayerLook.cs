@@ -129,7 +129,7 @@ public class PlayerLook : MonoBehaviour
                 photos.Add(photo1);//añadir uno al array de foto
                 Destroy(currentInteractuable);//deberia eliminarlo de la escena
             }
-            else if (currentInteractuable.CompareTag("Baul"))
+            else if (currentInteractuable.CompareTag("Baul") && gM.ChestKey(currentInteractuable))//compruebo si se tiene la llave
             {
                 gM.OpeningBaul(currentInteractuable);
             }
@@ -137,6 +137,11 @@ public class PlayerLook : MonoBehaviour
             {
                 //llamo al metodo publico del gm
                 gM.InteractuarCajaFuerte();
+            }
+            else if (currentInteractuable.CompareTag("ChestKey"))
+            {
+                gM.ChestKey(currentInteractuable);//le digo al gm que tengo la llave
+                Destroy(currentInteractuable);
             }
         }
     }

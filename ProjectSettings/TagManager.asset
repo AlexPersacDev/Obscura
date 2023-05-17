@@ -9,6 +9,7 @@ TagManager:
   - BrokenPhoto
   - Baul
   - CajaFuerte
+  - ChestKey
   layers:
   - Default
   - TransparentFX
