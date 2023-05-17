@@ -17,6 +17,8 @@ public class ContrasenhaCajaFuerte : MonoBehaviour
 
     [SerializeField] GameObject cajaFuerte;
 
+    [SerializeField] CanvasManager cM;
+
     Animator animRueda;
 
     private void Start()
@@ -56,7 +58,19 @@ public class ContrasenhaCajaFuerte : MonoBehaviour
             num = null;
         }
     }
-    
+    public void Salida()
+    {
+        //cambia la camara
+        playerLook.gameObject.SetActive(true);
+        zoomCajaFuerte.gameObject.SetActive(false);
+        //se vuelve a desacvtivar el cursor
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = false;
+        //se desactiva el canvas de la contraseña
+        canvasContra.SetActive(false);
+        //y quito la mirilla
+        cM.EnableMirilla();
+    }
 
 
 }

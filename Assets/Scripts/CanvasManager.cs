@@ -39,4 +39,15 @@ public class CanvasManager : MonoBehaviour
         else
             mirilla.texture = eye;
     }
+    public void EnableMirilla()//esto es pa q se quite la mirilla
+    {
+        if (mirilla.IsActive())
+        {
+            mirilla.enabled = false;
+        }
+        else
+        {
+            mirilla.enabled = true;
+        }
+    }
 }

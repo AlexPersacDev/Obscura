@@ -5,6 +5,7 @@ using Cinemachine;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] CanvasManager cM;
     [SerializeField] GameObject[] PhotosCorck;
     [SerializeField] GameObject[] videosTV;
     int index;
@@ -15,6 +16,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] CinemachineVirtualCamera playerLook;
     [SerializeField] CinemachineVirtualCamera zoomCajaFuerte;
     [SerializeField] GameObject canvasCOntrasenha;
+
+
     bool haveChestKey;
 
     // Start is called before the first frame update
@@ -50,7 +53,8 @@ public class GameManager : MonoBehaviour
         canvasCOntrasenha.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-        
+        cM.MirillaInteract(false);
+        cM.EnableMirilla();
     }
 
     public bool ChestKey(GameObject interactuable)
