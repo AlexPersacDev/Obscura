@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 107916644}
   - component: {fileID: 107916645}
   - component: {fileID: 107916646}
+  - component: {fileID: 697045705115527931}
   m_Layer: 3
   m_Name: doorWing
   m_TagString: Untagged
@@ -135,6 +136,19 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!65 &697045705115527931
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317875112758630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.918903, y: 1.9499999, z: 0.04092648}
+  m_Center: {x: -0.4489161, y: 0.9749999, z: -0.011339354}
 --- !u!1 &1549749351091858
 GameObject:
   m_ObjectHideFlags: 0
