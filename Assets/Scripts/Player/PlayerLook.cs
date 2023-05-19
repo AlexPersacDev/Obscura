@@ -67,8 +67,18 @@ public class PlayerLook : MonoBehaviour
 
     void DetectInteractuable()
     {
+        LayerMask masks = 0;
         Ray ray = new Ray(transform.position, transform.forward);
-        if (Physics.Raycast(ray, out RaycastHit hit, radiusInteract, interact)) //si detecto algo con el raycast que tenga la layermas interact
+        if (Physics.Raycast(ray, radiusInteract, masks.value))
+        {
+            interacting = false;
+            if (currentInteractuable)//compruebo si tengo guardado algo en currentinteractuable
+            {
+                currentInteractuable.GetComponent<Outline>().enabled = false; //desactivo el outline del guardado
+            }
+            currentInteractuable = null; //vacio la variable
+        }
+        else if (Physics.Raycast(ray, out RaycastHit hit, radiusInteract, interact)) //si detecto algo con el raycast que tenga la layermas interact
         {
             interacting = true;
             GameObject actualInteractuable = hit.transform.gameObject; //recojo el gameobject detectado 
@@ -83,6 +93,7 @@ public class PlayerLook : MonoBehaviour
                 currentInteractuable = actualInteractuable; //hago que el current seal el objeto detectado
             }
             currentInteractuable.GetComponent<Outline>().enabled = true; //activo su script;
+            
         }
         else //si no he detctado nada interactuable
         {
