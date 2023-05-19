@@ -99,7 +99,7 @@ public class PlayerLook : MonoBehaviour
     {
         if (interacting) //si el raycast detecta interactuable 
         {
-            if (firstLookOnCrock && !cM.CorutineOn())//si es la primera vez que miro el corcho
+            if (currentInteractuable.CompareTag("Corck") && firstLookOnCrock && !cM.CorutineOn())//si es la primera vez que miro el corcho
             {
                 cM.StartCoroutine(cM.GenerateDialogs(2));
                 firstLookOnCrock = false;
