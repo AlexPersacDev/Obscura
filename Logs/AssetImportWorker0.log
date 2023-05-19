@@ -100,3 +100,4 @@ Received Import Request.
 Start importing Assets/RecursosVarios/JJ_InteriorDoorPack_V1/Materials/Knobs/mat_doorKnob_brass.mat using Guid(f5ff2560e39df5b4db5703fd2fcabd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33c5fe2c098beb107b32a557e1910f6') in 0.020816 seconds
   Import took 0.025820 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
