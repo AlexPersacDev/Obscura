@@ -17,19 +17,20 @@ public class GameManager : MonoBehaviour
     [SerializeField] CinemachineVirtualCamera zoomCajaFuerte;
     [SerializeField] GameObject canvasCOntrasenha;
 
-
     bool haveChestKey;
 
+    [Header("BathMap")]
+    BathMap bMap;
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
+        bMap = FindObjectOfType<BathMap>(); //busco el objeto en escena al ser el unico de dicho tipo
+    }   
 
     // Update is called once per frame
     void Update()
     {
-        
+        ChangeBathMapTexture();
     }
 
     public void ActivatePhoto()
@@ -68,4 +69,14 @@ public class GameManager : MonoBehaviour
         }
         return haveChestKey;
     }
+
+    public void ChangeBathMapTexture() //metodo para cambiar la textura haciendo uso de otro metodo dentro del script de bathmap
+    {
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            bMap.MapTexture();
+        }
+    }
+
+
 }

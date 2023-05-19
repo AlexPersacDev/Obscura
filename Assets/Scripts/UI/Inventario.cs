@@ -31,12 +31,12 @@ public class Inventario : MonoBehaviour
         }
         if (inventarioEnabled==true)
         {
-            Debug.Log("Activo");
+            //Debug.Log("Activo");
             inventario.SetActive(true);
         }
         else
         {
-            Debug.Log("inactivo");
+            //Debug.Log("inactivo");
             inventario.SetActive(false);
         }
     }
