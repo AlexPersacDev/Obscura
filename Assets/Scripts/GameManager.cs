@@ -21,6 +21,9 @@ public class GameManager : MonoBehaviour
 
     [Header("BathMap")]
     BathMap bMap;
+
+    [Header("Drawer")]
+    bool isOpen = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -83,6 +86,24 @@ public class GameManager : MonoBehaviour
         Animator doorAnim = door.GetComponent<Animator>();
         doorAnim.SetTrigger("Opening");
     }
+
+    public void InterctionDrawer(GameObject drawer)
+    {
+        Animator drawerAnim = drawer.GetComponent<Animator>();
+        if (!isOpen)
+        {
+            drawerAnim.SetTrigger("Opening");
+            isOpen=true;
+        }
+        else
+        {
+            drawerAnim.SetTrigger("Close");
+            isOpen = false;
+        }
+    }
+
+
+
 
 
 }

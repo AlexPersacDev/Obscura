@@ -198,3 +198,199 @@ System memory in use after: 121.1 MB.
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3178.
 Total: 3.200200 ms (FindLiveObjects: 0.371900 ms CreateObjectMapping: 0.253500 ms MarkObjects: 2.529600 ms  DeleteObjects: 0.042100 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 331.090148 seconds.
+  path: Assets/Anims
+  artifactKey: Guid(49c8ada42952d2541953ce76bb95ce0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims using Guid(49c8ada42952d2541953ce76bb95ce0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef444cdacdabeca0ba4b8e662c0f9400') in 0.016143 seconds
+  Import took 0.022498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.717063 seconds.
+  path: Assets/Anims/cajones
+  artifactKey: Guid(e6c42d7cd7e0f324ca400115709f53c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/cajones using Guid(e6c42d7cd7e0f324ca400115709f53c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f56f1f03e9a3ffade3e522a25287ab') in 0.008680 seconds
+  Import took 0.013583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.407768 seconds.
+  path: Assets/Anims/cajones/cajones.controller
+  artifactKey: Guid(2467cfe211a64174795f9c99f37d31a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/cajones/cajones.controller using Guid(2467cfe211a64174795f9c99f37d31a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccac1ad90a84771bc61785b9c8ac5a8') in 0.015054 seconds
+  Import took 0.020052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 439.714847 seconds.
+  path: Assets/Anims/cajones/close@cajon.anim
+  artifactKey: Guid(49f1fe3faf0c5964786045ad19b49a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/cajones/close@cajon.anim using Guid(49f1fe3faf0c5964786045ad19b49a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcb1c776e0fa44e9566aacfde815bc4') in 0.010878 seconds
+  Import took 0.016382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.570771 seconds.
+  path: Assets/Anims/cajones/open@cajon.anim
+  artifactKey: Guid(4db3209fde0b3124792d10f3b906f11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/cajones/open@cajon.anim using Guid(4db3209fde0b3124792d10f3b906f11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb2bfff61fea577fd7dff75ef1bc840') in 0.009540 seconds
+  Import took 0.014061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 460.793066 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a986e4767f5a39c888aac731b074cb4b') in 0.003047 seconds
+  Import took 0.007735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.786324 seconds.
+  path: Assets/Anims/cajones/cajonAbajo_L
+  artifactKey: Guid(0df022b90e15f43498da023a95044ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/cajones/cajonAbajo_L using Guid(0df022b90e15f43498da023a95044ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd394fd4825e14b4dc47312821b24a6ce') in 0.008470 seconds
+  Import took 0.014247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000692 seconds.
+  path: Assets/Anims/cajones/cajonAbajo_L
+  artifactKey: Guid(0df022b90e15f43498da023a95044ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/cajones/cajonAbajo_L using Guid(0df022b90e15f43498da023a95044ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd394fd4825e14b4dc47312821b24a6ce') in 0.002965 seconds
+  Import took 0.008097 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001814 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.878 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2569 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.0 MB.
+System memory in use after: 121.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3181.
+Total: 2.708600 ms (FindLiveObjects: 0.306000 ms CreateObjectMapping: 0.222100 ms MarkObjects: 2.160000 ms  DeleteObjects: 0.019400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002403 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2569 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.1 MB.
+System memory in use after: 121.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3184.
+Total: 2.630000 ms (FindLiveObjects: 0.342200 ms CreateObjectMapping: 0.220700 ms MarkObjects: 2.020300 ms  DeleteObjects: 0.045800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001417 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.907 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2569 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.1 MB.
+System memory in use after: 121.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3187.
+Total: 2.799300 ms (FindLiveObjects: 0.303900 ms CreateObjectMapping: 0.208400 ms MarkObjects: 2.257900 ms  DeleteObjects: 0.028400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001634 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.128 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2569 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.1 MB.
+System memory in use after: 121.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3190.
+Total: 3.461400 ms (FindLiveObjects: 0.364300 ms CreateObjectMapping: 0.232700 ms MarkObjects: 2.832100 ms  DeleteObjects: 0.030100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 746.155049 seconds.
+  path: Assets/Anims/cajones/cajonAbajo_R
+  artifactKey: Guid(4c90e28133054304e9829b8d078459fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/cajones/cajonAbajo_R using Guid(4c90e28133054304e9829b8d078459fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15576fbd420ea7df60cb7bd1fb26401') in 0.013188 seconds
+  Import took 0.019631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.205804 seconds.
+  path: Assets/Anims/cajones/cajonAbajo_R/cajonAbajo_R.controller
+  artifactKey: Guid(a3069e2e52fe0fd459b099fe5eb0a27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/cajones/cajonAbajo_R/cajonAbajo_R.controller using Guid(a3069e2e52fe0fd459b099fe5eb0a27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20091e5282b6645f00d823059c9e454d') in 0.011379 seconds
+  Import took 0.017053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000786 seconds.
+  path: Assets/Anims/cajones/cajonAbajo_R/cajonAbajo_R.controller
+  artifactKey: Guid(a3069e2e52fe0fd459b099fe5eb0a27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/cajones/cajonAbajo_R/cajonAbajo_R.controller using Guid(a3069e2e52fe0fd459b099fe5eb0a27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20091e5282b6645f00d823059c9e454d') in 0.002615 seconds
+  Import took 0.007714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.158863 seconds.
+  path: Assets/Anims/cajones/cajonAbajo_R/Close@cajonAbajo_R.anim
+  artifactKey: Guid(afd45cfab89ac0846b4bd70065ef45cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/cajones/cajonAbajo_R/Close@cajonAbajo_R.anim using Guid(afd45cfab89ac0846b4bd70065ef45cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fe1e6dcd7f18bf00d61e00d8f5f853') in 0.009920 seconds
+  Import took 0.015109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.529066 seconds.
+  path: Assets/Anims/cajones/cajonAbajo_R/Opening@cajonAbajo_R.anim
+  artifactKey: Guid(49c525e07bf00cb458354a9895f6d975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/cajones/cajonAbajo_R/Opening@cajonAbajo_R.anim using Guid(49c525e07bf00cb458354a9895f6d975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47df54750dfa95578a743c5dc609f0d6') in 0.010290 seconds
+  Import took 0.015468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001045 seconds.
+  path: Assets/Anims/cajones/cajonAbajo_R/Opening@cajonAbajo_R.anim
+  artifactKey: Guid(49c525e07bf00cb458354a9895f6d975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/cajones/cajonAbajo_R/Opening@cajonAbajo_R.anim using Guid(49c525e07bf00cb458354a9895f6d975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47df54750dfa95578a743c5dc609f0d6') in 0.002638 seconds
+  Import took 0.007658 seconds .
+

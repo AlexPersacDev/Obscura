@@ -176,6 +176,10 @@ public class PlayerLook : MonoBehaviour
                 {
                     gM.OpeningDoor(currentInteractuable);
                 }
+                else if(currentInteractuable.CompareTag("Drawer"))
+                {
+                    gM.InterctionDrawer(currentInteractuable);
+                }
             }
         }
     }
