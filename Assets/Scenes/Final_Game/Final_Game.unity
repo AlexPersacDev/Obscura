@@ -1166,23 +1166,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4727350622132194, guid: 5b3cec0012220604d8aa38cd0517048b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8163962
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4727350622132194, guid: 5b3cec0012220604d8aa38cd0517048b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4727350622132194, guid: 5b3cec0012220604d8aa38cd0517048b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5774922
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4727350622132194, guid: 5b3cec0012220604d8aa38cd0517048b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4727350622132194, guid: 5b3cec0012220604d8aa38cd0517048b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 70.549
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 697045705115527931, guid: 5b3cec0012220604d8aa38cd0517048b, type: 3}
@@ -17699,7 +17699,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -4330018481704969980, guid: 2f5780728b2da334fa705668d1973f8d, type: 3}
+  - {fileID: 2100000, guid: 0519bde386446014380e385c9ffb93ad, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21273,8 +21273,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360980345261330803}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -6.3011284, y: 0.31324926, z: -4.8224874}
-  m_LocalScale: {x: 2.4558425, y: 2.4558425, z: 2.5120811}
+  m_LocalPosition: {x: -6.3011284, y: 0.31324926, z: -4.86}
+  m_LocalScale: {x: 2.4558425, y: 2.6083505, z: 2.5120811}
   m_Children: []
   m_Father: {fileID: 4348655159664870277}
   m_RootOrder: 7
@@ -23170,6 +23170,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6317645026105922316, guid: 0709d6da18dfe164292d3895e1acd0ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317645026115880042, guid: 0709d6da18dfe164292d3895e1acd0ed, type: 3}
+      propertyPath: hour
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317645026115880042, guid: 0709d6da18dfe164292d3895e1acd0ed, type: 3}
+      propertyPath: minutes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317645026115880042, guid: 0709d6da18dfe164292d3895e1acd0ed, type: 3}
+      propertyPath: seconds
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317645026115880042, guid: 0709d6da18dfe164292d3895e1acd0ed, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317645026115880042, guid: 0709d6da18dfe164292d3895e1acd0ed, type: 3}
+      propertyPath: clockSpeed
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
