@@ -11,6 +11,7 @@ TagManager:
   - CajaFuerte
   - ChestKey
   - IcePick
+  - Door
   layers:
   - Default
   - TransparentFX

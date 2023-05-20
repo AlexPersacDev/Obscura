@@ -78,5 +78,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void OpeningDoor(GameObject door)
+    {
+        Animator doorAnim = door.GetComponent<Animator>();
+        doorAnim.SetTrigger("Opening");
+    }
+
 
 }

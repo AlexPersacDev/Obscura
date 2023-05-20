@@ -172,6 +172,10 @@ public class PlayerLook : MonoBehaviour
                     gM.ChestKey(currentInteractuable);//le digo al gm que tengo la llave
                     Destroy(currentInteractuable);
                 }
+                else if(currentInteractuable.CompareTag("Door"))
+                {
+                    gM.OpeningDoor(currentInteractuable);
+                }
             }
         }
     }
