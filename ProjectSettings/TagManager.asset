@@ -10,6 +10,7 @@ TagManager:
   - Baul
   - CajaFuerte
   - ChestKey
+  - IcePick
   layers:
   - Default
   - TransparentFX
