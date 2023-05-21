@@ -12,6 +12,7 @@ TagManager:
   - ChestKey
   - IcePick
   - Door
+  - Drawer
   layers:
   - Default
   - TransparentFX
