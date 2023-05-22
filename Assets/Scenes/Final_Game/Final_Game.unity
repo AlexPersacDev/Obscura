@@ -3237,7 +3237,7 @@ MonoBehaviour:
   playerLook: {fileID: 2002933405}
   zoomCajaFuerte: {fileID: 1811591284}
   canvasContra: {fileID: 229313602}
-  cajaFuerte: {fileID: 0}
+  cajaFuerte: {fileID: 769477776}
   cM: {fileID: 1166657836}
 --- !u!1001 &234367252
 PrefabInstance:
@@ -9214,6 +9214,11 @@ BoxCollider:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cd58eaff89fec3c4fac46e372ce55ac3, type: 3}
   m_PrefabInstance: {fileID: 756445697}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &769477776 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4adf0e4d83ca9274180894ee2c6faf62, type: 3}
+  m_PrefabInstance: {fileID: 942638158}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &778868723 stripped
 GameObject:
