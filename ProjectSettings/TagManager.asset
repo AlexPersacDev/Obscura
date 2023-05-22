@@ -13,6 +13,7 @@ TagManager:
   - IcePick
   - Door
   - Drawer
+  - DoorKey
   layers:
   - Default
   - TransparentFX
