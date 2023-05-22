@@ -21,15 +21,18 @@ public class ContrasenhaCajaFuerte : MonoBehaviour
 
     Animator animRueda;
 
+    Animator animCajaFuerte;
+
     private void Start()
     {
         animRueda = cajaFuerte.GetComponent<Animator>();
+        //animCajaFuerte = cajaFuerte.GetComponent<Animator>();
     }
     public void Codigo(string numeros)
     {
         index++;
         num = num + numeros;
-        Debug.Log(""+num);
+        
     }
     public void Enter()
     {
@@ -73,5 +76,43 @@ public class ContrasenhaCajaFuerte : MonoBehaviour
         cM.EnableMirilla();
     }
 
+    //mil metodos para las anim de los botones
 
+    public void PresionarUno()
+    {
+        // animCajaFuerte.SetTrigger("1");
+        animRueda.SetTrigger("1");
+    }
+    public void PresionarDos()
+    {
+        animRueda.SetTrigger("2");
+    }
+    public void PresionarTres()
+    {
+        animRueda.SetTrigger("3");
+    }
+    public void PresionarCuatro()
+    {
+        animRueda.SetTrigger("4");
+    }
+    public void PresionarCinco()
+    {
+        animRueda.SetTrigger("5");
+    }
+    public void PresionarSeis()
+    {
+        animRueda.SetTrigger("6");
+    }
+    public void PresionarSiete()
+    {
+        animRueda.SetTrigger("7");
+    }
+    public void PresionarOcho()
+    {
+        animRueda.SetTrigger("8");
+    }
+    public void PresionarNueve()
+    {
+        animRueda.SetTrigger("9");
+    }
 }
