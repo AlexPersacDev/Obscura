@@ -187,4 +187,11 @@ public class PlayerLook : MonoBehaviour
     {
 
     }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("TriggerRoom"))
+        {
+            Debug.Log("W");
+        }
+    }
 }
