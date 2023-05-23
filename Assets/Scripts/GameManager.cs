@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] CinemachineVirtualCamera zoomCajaFuerte;
     [SerializeField] GameObject canvasCOntrasenha;
     [SerializeField] CinemachineVirtualCamera zoomCandado2;
+    [SerializeField] GameObject canvasCandado2;
 
     bool haveChestKey;
 
@@ -98,6 +99,9 @@ public class GameManager : MonoBehaviour
         playerLook.gameObject.SetActive(false);
         zoomCajaFuerte.gameObject.SetActive(false);
         zoomCandado2.gameObject.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        canvasCandado2.SetActive(true);
     }
 
 
