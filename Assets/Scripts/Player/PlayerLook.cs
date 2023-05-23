@@ -180,6 +180,10 @@ public class PlayerLook : MonoBehaviour
                 {
                     gM.InterctionDrawer(currentInteractuable);
                 }
+                else if (currentInteractuable.CompareTag("Candado2"))
+                {
+
+                }
             }
         }
     }
