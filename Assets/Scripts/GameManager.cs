@@ -85,21 +85,12 @@ public class GameManager : MonoBehaviour
     {
         Animator doorAnim = door.GetComponent<Animator>();
         doorAnim.SetTrigger("Opening");
+        door.layer = 0;
     }
 
     public void InterctionDrawer(GameObject drawer)
     {
-        Animator drawerAnim = drawer.GetComponent<Animator>();
-        if (!isOpen)
-        {
-            drawerAnim.SetTrigger("Opening");
-            isOpen=true;
-        }
-        else
-        {
-            drawerAnim.SetTrigger("Close");
-            isOpen = false;
-        }
+              
     }
 
 
