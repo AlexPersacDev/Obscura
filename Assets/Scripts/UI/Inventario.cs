@@ -32,11 +32,15 @@ public class Inventario : MonoBehaviour
         if (inventarioEnabled==true)
         {
             //Debug.Log("Activo");
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             inventario.SetActive(true);
         }
         else
         {
             //Debug.Log("inactivo");
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = false;
             inventario.SetActive(false);
         }
     }
