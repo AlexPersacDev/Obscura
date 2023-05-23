@@ -3251,7 +3251,6 @@ MonoBehaviour:
   canvasContra: {fileID: 229313602}
   cajaFuerte: {fileID: 919132149022636319}
   cM: {fileID: 1166657836}
-  animCajaFuerte: {fileID: 919132149022636320}
 --- !u!1001 &234367252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4180,7 +4179,7 @@ GameObject:
   - component: {fileID: 293318451}
   - component: {fileID: 293318452}
   m_Layer: 5
-  m_Name: Inventario
+  m_Name: Inventario (Script)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30833,8 +30832,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7150465727477667583}
-  m_LocalRotation: {x: 0.029758824, y: 0.86660635, z: -0.052058633, w: 0.49537635}
-  m_LocalPosition: {x: -6.9621487, y: 1.2037444, z: 7.1950006}
+  m_LocalRotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+  m_LocalPosition: {x: -11.86, y: 6.832, z: 3.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7148635877015450336}
