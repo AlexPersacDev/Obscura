@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/AlexPereira/Programacion/Scopophobia_00
+D:/Scopophobia_00
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53149
-Successfully changed project path to: D:/AlexPereira/Programacion/Scopophobia_00
-D:/AlexPereira/Programacion/Scopophobia_00
+50933
+Successfully changed project path to: D:/Scopophobia_00
+D:/Scopophobia_00
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 53.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 57.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/AlexPereira/Programacion/Scopophobia_00/Assets
+[Subsystems] Discovering subsystems at path D:/Scopophobia_00/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -36,43 +36,332 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002565 seconds.
+Registered in 0.002560 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.65 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 57.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.489 seconds
+- Completed reload, in  2.651 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001542 seconds.
+Registered in 0.001523 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 73.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.139 seconds
+- Completed reload, in  1.335 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2728 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.8 MB.
-System memory in use after: 136.0 MB.
+System memory in use before: 134.2 MB.
+System memory in use after: 134.4 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3177.
-Total: 2.567600 ms (FindLiveObjects: 0.268700 ms CreateObjectMapping: 0.136500 ms MarkObjects: 2.086400 ms  DeleteObjects: 0.074900 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3176.
+Total: 2.465100 ms (FindLiveObjects: 0.277500 ms CreateObjectMapping: 0.130300 ms MarkObjects: 1.960200 ms  DeleteObjects: 0.095600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/taquillas
-  artifactKey: Guid(79b7461b22e925240853bf525d926067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/taquillas using Guid(79b7461b22e925240853bf525d926067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c765966e91fed59c1e25d7513f520b2') in 0.011292 seconds
-  Import took 0.016382 seconds .
+  path: Assets/Scenes/Final_Game/Final_Game.unity
+  artifactKey: Guid(7d34b45114dae0a49852cb33609589db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Final_Game/Final_Game.unity using Guid(7d34b45114dae0a49852cb33609589db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9890f2aaa8fd218275ad8dd389b80645') in 0.022477 seconds
+  Import took 0.027823 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 30.113526 seconds.
+  path: Assets/assets
+  artifactKey: Guid(ab3d545d4683edc498684f7fe4f764ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets using Guid(ab3d545d4683edc498684f7fe4f764ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a976994848583877729fef2a98e54073') in 0.009125 seconds
+  Import took 0.015072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.076071 seconds.
+  path: Assets/RecursosVarios/Candados
+  artifactKey: Guid(7fcc28968ae30544088d858021f16d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Candados using Guid(7fcc28968ae30544088d858021f16d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6194996cb50a0006a6f0036706a0da') in 0.009453 seconds
+  Import took 0.014708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.153118 seconds.
+  path: Assets/RecursosVarios/Candados/candado1_mape_lam_girado.fbx
+  artifactKey: Guid(c5ef0dd7ef8cba34b8bef1829c26bff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Candados/candado1_mape_lam_girado.fbx using Guid(c5ef0dd7ef8cba34b8bef1829c26bff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8358daf35519dfb7871de994551acdb1') in 0.332854 seconds
+  Import took 0.338851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.579214 seconds.
+  path: Assets/RecursosVarios/Candados/candado2_mapeado_lam.fbx
+  artifactKey: Guid(7072348d401cfae4b91b8a015f4f6293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Candados/candado2_mapeado_lam.fbx using Guid(7072348d401cfae4b91b8a015f4f6293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6594064b7ad6c66dfddefad896d61a56') in 0.067260 seconds
+  Import took 0.072746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.091751 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e86b00031a48530f0f1fda4c0868a2') in 0.009422 seconds
+  Import took 0.015488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.234759 seconds.
+  path: Assets/Materials/definitivos/Candados
+  artifactKey: Guid(3f2c055faffa7d64f8b74d6e29fdbdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados using Guid(3f2c055faffa7d64f8b74d6e29fdbdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0ad21a811e0f09ddc6e46dc2633d01') in 0.001798 seconds
+  Import took 0.007179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.310459 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2
+  artifactKey: Guid(7726fd20d4259844e8c38716945458f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2 using Guid(7726fd20d4259844e8c38716945458f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59ad64a330e6c8428a6d35a3f18b28b') in 0.007801 seconds
+  Import took 0.013177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.369943 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/candado2_girado.fbx
+  artifactKey: Guid(456f960a38c367e43ae7573a81c1e12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/candado2_girado.fbx using Guid(456f960a38c367e43ae7573a81c1e12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad803761a6873333d56776916e61d34a') in 0.073408 seconds
+  Import took 0.078676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.801942 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado
+  artifactKey: Guid(dfcf672c52904ac4fb0273169c974be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado using Guid(dfcf672c52904ac4fb0273169c974be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bc5f814829f9cb2d9ce2fcfe9c5aa5') in 0.008323 seconds
+  Import took 0.013019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036876 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1_Base_color.png
+  artifactKey: Guid(3603cf5b31173714abf9f36ff8169e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1_Base_color.png using Guid(3603cf5b31173714abf9f36ff8169e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6727cacd3fa8c1400d944f78d5c64b3f') in 0.109374 seconds
+  Import took 0.114104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/codigo_Normal_DirectX.png
+  artifactKey: Guid(523c0b473015dfa4a8c51c961fc96d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/codigo_Normal_DirectX.png using Guid(523c0b473015dfa4a8c51c961fc96d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277c9414244c46b8484e2e912d18f00d') in 0.014072 seconds
+  Import took 0.019095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/cierre1_Base_color.png
+  artifactKey: Guid(d1a8617815138bc40a0cadb4897c9fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/cierre1_Base_color.png using Guid(d1a8617815138bc40a0cadb4897c9fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1805f7d1b057e4f90c8cd35d4175e780') in 0.014166 seconds
+  Import took 0.018944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/codigo_Metallic.png
+  artifactKey: Guid(abad3362ad4d98546afa9f1e33d27144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/codigo_Metallic.png using Guid(abad3362ad4d98546afa9f1e33d27144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2584c89878341e9de0fa1a66d25779') in 0.013405 seconds
+  Import took 0.017954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/codigo_Normal.png
+  artifactKey: Guid(6a5f49afa23d28540b1f237b52852b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/codigo_Normal.png using Guid(6a5f49afa23d28540b1f237b52852b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4655b1e08e73fff97d4b6d28aaa9f5') in 0.016460 seconds
+  Import took 0.020858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1_Metallic.png
+  artifactKey: Guid(ec37c0921a6b68c4ea160e304db69ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1_Metallic.png using Guid(ec37c0921a6b68c4ea160e304db69ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed4d399c2cbb88d5b3d050a45542f5c') in 0.013300 seconds
+  Import took 0.019372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1_Height.png
+  artifactKey: Guid(5a9b5657a50b41243854d092830486a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1_Height.png using Guid(5a9b5657a50b41243854d092830486a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07021693e87501ab4ffc0a3c99da32e2') in 0.012683 seconds
+  Import took 0.018960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/cierre1_Mixed_AO.png
+  artifactKey: Guid(0245c3fc0c25979498c71f91204697eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/cierre1_Mixed_AO.png using Guid(0245c3fc0c25979498c71f91204697eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e272fad335666d58b363ea175d2a919') in 0.012134 seconds
+  Import took 0.017604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/codigo_Height.png
+  artifactKey: Guid(c40e2b5091c8b1b4a957e4bcc12f79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/codigo_Height.png using Guid(c40e2b5091c8b1b4a957e4bcc12f79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda4c7b3b0a512826e313d70aefd8020') in 0.014276 seconds
+  Import took 0.018933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/cierre1_Metallic.png
+  artifactKey: Guid(f36a14993879422478254ed1ba9b3a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/cierre1_Metallic.png using Guid(f36a14993879422478254ed1ba9b3a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16261f26a0a52c471e9e261586e04978') in 0.012936 seconds
+  Import took 0.017838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/cierre1_Height.png
+  artifactKey: Guid(754a4d2fe22803947bd588f00c23e55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/cierre1_Height.png using Guid(754a4d2fe22803947bd588f00c23e55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd560dfa5d9005f1e4f398ef8c4327300') in 0.014875 seconds
+  Import took 0.019804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1_Normal.png
+  artifactKey: Guid(b534a9e5641017a4c866c121576704a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1_Normal.png using Guid(b534a9e5641017a4c866c121576704a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cb2b47bd0491e0465f35df8c569e88') in 0.014266 seconds
+  Import took 0.018754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/cierre1_Roughness.png
+  artifactKey: Guid(84407b9a8a552ee4d912e60b7a95b631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/cierre1_Roughness.png using Guid(84407b9a8a552ee4d912e60b7a95b631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c104b3bf831d4fd0dfc940fdd6c5bc') in 0.017178 seconds
+  Import took 0.022416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1_Mixed_AO.png
+  artifactKey: Guid(f3447dce0b49d5e47a26f621f85608c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1_Mixed_AO.png using Guid(f3447dce0b49d5e47a26f621f85608c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7fbbdb98ea084363173ea893836614') in 0.014253 seconds
+  Import took 0.019266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1_Normal_DirectX.png
+  artifactKey: Guid(50938be603509404ea7b052a3a673013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1_Normal_DirectX.png using Guid(50938be603509404ea7b052a3a673013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f6125108efb4b3820460f958da7d5e') in 0.014721 seconds
+  Import took 0.019755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1_Roughness.png
+  artifactKey: Guid(2416654eab661a441864bde4e1d18a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1_Roughness.png using Guid(2416654eab661a441864bde4e1d18a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a20ebebe23fd4d18ffbdf4e31be25a') in 0.013307 seconds
+  Import took 0.018205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/cierre1_Normal.png
+  artifactKey: Guid(29c46df898dd74c46aff9ad2be041c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/cierre1_Normal.png using Guid(29c46df898dd74c46aff9ad2be041c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2952eb01fbc5d748c82f11f1e3edf764') in 0.014143 seconds
+  Import took 0.018947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/codigo_Roughness.png
+  artifactKey: Guid(edcf282ca49fdf146bba4f777faf6fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/codigo_Roughness.png using Guid(edcf282ca49fdf146bba4f777faf6fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a028852c374160e33b36eeb11c06e1a3') in 0.015485 seconds
+  Import took 0.020698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/codigo_Mixed_AO.png
+  artifactKey: Guid(4320d01bf4239184c8db5f1149700db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/codigo_Mixed_AO.png using Guid(4320d01bf4239184c8db5f1149700db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b587d8e4bb4b9a51b30956301b199197') in 0.013891 seconds
+  Import took 0.018744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/codigo_Base_color.png
+  artifactKey: Guid(db02a3dda5c45584a80e279cbafb0bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/codigo_Base_color.png using Guid(db02a3dda5c45584a80e279cbafb0bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555b292381106656d49e42dbad64e1f6') in 0.014809 seconds
+  Import took 0.020420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/cierre1_Normal_DirectX.png
+  artifactKey: Guid(4f5f8d9598771b24ea4406fcba41f987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/cierre1_Normal_DirectX.png using Guid(4f5f8d9598771b24ea4406fcba41f987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae20ceb1cbf2c1f0ef79025421e5a04') in 0.013227 seconds
+  Import took 0.017931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.737800 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/cierre1
+  artifactKey: Guid(1b940b9e0e3aa994da209a29c1556437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/cierre1 using Guid(1b940b9e0e3aa994da209a29c1556437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208aa97252a1a35027d45f50fe5bdc22') in 0.009015 seconds
+  Import took 0.014840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.818775 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1
+  artifactKey: Guid(fb7c6f4fd88e2a7468b93023ccc6d701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1 using Guid(fb7c6f4fd88e2a7468b93023ccc6d701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9e2a5ac99cc4e73b1e97cf770a0d11') in 0.008776 seconds
+  Import took 0.013670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.765103 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/codigo
+  artifactKey: Guid(b54281c5c28112946933b3b33d508186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/codigo using Guid(b54281c5c28112946933b3b33d508186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca6a5662e121911722dc7de9d9c3960') in 0.008330 seconds
+  Import took 0.013196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.113764 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1/cANDADO2_cANDADO.mat
+  artifactKey: Guid(f8b9daf21432ee84bbb0968943db453a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1/cANDADO2_cANDADO.mat using Guid(f8b9daf21432ee84bbb0968943db453a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c10e94cc2b62c7d2f4fde656ad0b6a') in 0.017416 seconds
+  Import took 0.022425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.287999 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1/cANDADO2_cANDADO.mat
+  artifactKey: Guid(f8b9daf21432ee84bbb0968943db453a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1/cANDADO2_cANDADO.mat using Guid(f8b9daf21432ee84bbb0968943db453a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a880c1f1816e1bffbdbf5665b9c7dd') in 0.045792 seconds
+  Import took 0.051563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.180994 seconds.
+  path: Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1/candado1_Normal_DirectX.png
+  artifactKey: Guid(50938be603509404ea7b052a3a673013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1/candado1_Normal_DirectX.png using Guid(50938be603509404ea7b052a3a673013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534381e9214bfc115cf273ede68d66c6') in 0.020383 seconds
+  Import took 0.025778 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
