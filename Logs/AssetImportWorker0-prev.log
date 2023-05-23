@@ -364,3 +364,4 @@ Received Import Request.
 Start importing Assets/Materials/definitivos/Candados/Candado 2/tecturasCandado/candado1/candado1_Normal_DirectX.png using Guid(50938be603509404ea7b052a3a673013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534381e9214bfc115cf273ede68d66c6') in 0.020383 seconds
   Import took 0.025778 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
