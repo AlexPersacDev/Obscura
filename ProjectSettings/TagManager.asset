@@ -15,6 +15,7 @@ TagManager:
   - Drawer
   - DoorKey
   - TriggerRoom
+  - Candado2
   layers:
   - Default
   - TransparentFX

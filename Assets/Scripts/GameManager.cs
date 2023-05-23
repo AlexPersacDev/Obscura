@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] CinemachineVirtualCamera playerLook;
     [SerializeField] CinemachineVirtualCamera zoomCajaFuerte;
     [SerializeField] GameObject canvasCOntrasenha;
+    [SerializeField] CinemachineVirtualCamera zoomCandado2;
 
     bool haveChestKey;
 
@@ -91,6 +92,12 @@ public class GameManager : MonoBehaviour
     public void InterctionDrawer(GameObject drawer)
     {
               
+    }
+    public void InteractuarCandado2()
+    {
+        playerLook.gameObject.SetActive(false);
+        zoomCajaFuerte.gameObject.SetActive(false);
+        zoomCandado2.gameObject.SetActive(true);
     }
 
 

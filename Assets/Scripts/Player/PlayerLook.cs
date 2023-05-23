@@ -182,7 +182,7 @@ public class PlayerLook : MonoBehaviour
                 }
                 else if (currentInteractuable.CompareTag("Candado2"))
                 {
-
+                    gM.InteractuarCandado2();
                 }
             }
         }
