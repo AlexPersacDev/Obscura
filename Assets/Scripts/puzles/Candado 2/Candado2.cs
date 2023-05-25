@@ -17,6 +17,7 @@ public class Candado2 : MonoBehaviour
 
     [SerializeField] GameObject candado;
     Animator animCandado;
+    [SerializeField] CanvasManager cM;
 
     int[] arrayNumeros = new int[4]; 
     int contadorA = 0;
@@ -129,11 +130,13 @@ public class Candado2 : MonoBehaviour
             //se abre el candado
             Debug.Log("Has abierto el candado");
             animCandado.SetBool("SeHaAbierto",true);
-            //candado.SetActive(false);
+            playerLook.gameObject.SetActive(true);
+            zoomCandado2.gameObject.SetActive(false);
+            this.gameObject.SetActive(false);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = false;
+            cM.EnableMirilla();
         }
     }
-    //public void EventoAnimacion()
-    //{
-    //    candado.SetActive(false);
-    //}
+   
 }

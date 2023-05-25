@@ -103,6 +103,8 @@ public class GameManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         canvasCandado2.SetActive(true);
+        cM.MirillaInteract(false);
+        cM.EnableMirilla();
     }
     public void IcePick()
     {
