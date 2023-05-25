@@ -16906,6 +16906,8 @@ MonoBehaviour:
   playerLook: {fileID: 2002933405}
   zoomCajaFuerte: {fileID: 1811591284}
   canvasCOntrasenha: {fileID: 229313602}
+  zoomCandado2: {fileID: 0}
+  canvasCandado2: {fileID: 0}
 --- !u!4 &1613789128
 Transform:
   m_ObjectHideFlags: 0
@@ -28843,7 +28845,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!33 &5151397363057027058
 MeshFilter:
   m_ObjectHideFlags: 0
