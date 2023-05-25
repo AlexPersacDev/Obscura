@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
 
     [Header("BathMap")]
     BathMap bMap;
+    bool iceP;
 
     [Header("Drawer")]
     bool isOpen = false;
@@ -103,7 +104,18 @@ public class GameManager : MonoBehaviour
         Cursor.visible = true;
         canvasCandado2.SetActive(true);
     }
-
+    public void IcePick()
+    {
+        bMap.MapTexture();
+        iceP = true;
+    }
+    public void WorkTable()
+    {
+        if (iceP)
+        {
+            bMap.MapTexture();
+        }
+    }
 
 
 
