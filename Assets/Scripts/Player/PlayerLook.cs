@@ -155,6 +155,7 @@ public class PlayerLook : MonoBehaviour
                         }
                     }
                 }
+                //GetComponent<IInteractuable>().Interact();
                 else if (currentInteractuable.CompareTag("Photo"))//Compruebo si el objeto tiene el tag foto
                 {
                     photos.Add(photo1);//añadir uno al array de foto
