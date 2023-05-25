@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IDamagable
 {
     CharacterController controlerPlayer;
 
@@ -69,6 +69,8 @@ public class Player : MonoBehaviour
         {
             moveY.y = 0;
         }
+
+        GetComponent<IDamagable>().RecibirDanho();
         float jumpign = Mathf.Sqrt(-2 * gravityScale * jumplength);
         moveY = new Vector3(0, jumpign, 0);
     }
@@ -85,5 +87,10 @@ public class Player : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 1);
             speed = 3;
         }
+    }
+
+    public void RecibirDanho()
+    {
+        
     }
 }
