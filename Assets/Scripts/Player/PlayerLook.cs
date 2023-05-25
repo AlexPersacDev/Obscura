@@ -160,6 +160,7 @@ public class PlayerLook : MonoBehaviour
                 {
                     photos.Add(photo1);//añadir uno al array de foto
                     Destroy(currentInteractuable);//deberia eliminarlo de la escena
+                    gM.ObjetoEnInventario(currentInteractuable);
                 }
                 else if (currentInteractuable.CompareTag("Baul") && gM.ChestKey(currentInteractuable))//compruebo si se tiene la llave
                 {

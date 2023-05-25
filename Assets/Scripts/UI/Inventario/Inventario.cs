@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class Inventario : MonoBehaviour
 {
@@ -11,6 +13,8 @@ public class Inventario : MonoBehaviour
     GameObject[] slots;
     [SerializeField] GameObject slotHolder;
 
+    Item[] itemsArray;
+    int itemsCounter = 0;
     void Start()
     {
         allSlots = slotHolder.transform.childCount;
@@ -43,6 +47,35 @@ public class Inventario : MonoBehaviour
             Cursor.visible = false;
             inventario.SetActive(false);
         }
+    }
+    void AnhadirItem(Item itemAAnhadir)
+    {
+        int index = 0;
+        itemsArray[itemsCounter] = itemAAnhadir;
+
+        for (int i = 0; i < slots.Length; i++)
+        {
+            if (slots[i].transform.GetChild(0).GetComponent<Image>().sprite== null)
+            {
+                index = i;
+                break;
+            }
+        }
+        GameObject slotToFill = slots[index].transform.GetChild(0).gameObject;
+        CambiarUI(true, slotToFill, itemAAnhadir.misDatos);
+        itemsCounter++;
+          
+    }
+    void CambiarUI(bool estado, GameObject slot, ItemSO datos)
+    {
+        slot.SetActive(estado);
+        slot.GetComponent<Image>().sprite = datos.icono;
+        ItemSO nuevosDatos = new ItemSO();
+        slot.GetComponent<ItemUI>().misDatos = nuevosDatos;
+        slot.GetComponent<ItemUI>().misDatos.itemPrefab = datos.itemPrefab;
+    }
+}
+
         //es importante q el recolectable sea prefab
         //fernando crea una lista de gO List<GameObject> nosek = new, tambien puede ser un listado de items 
         //en donde se ha interactuado se hace nosek.Add -> lo que clicko lo añado a la lista
@@ -55,5 +88,3 @@ public class Inventario : MonoBehaviour
         //en el script de los prefabs 
         //en un nuevo metodo use item y crear un n uevo script que sea UIItem o algo asi 
         //
-    }
-}
