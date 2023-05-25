@@ -14,66 +14,60 @@ public class Candado2 : MonoBehaviour
     [SerializeField] GameObject codigoIzqMedio;
     [SerializeField] GameObject codigodrchMedio;
     [SerializeField] GameObject codigodrch;
+
+    int[] arrayNumeros = new int[4]; 
+    int contadorA = 0;
+    int contadorB = 0;
+    int contadorC = 0;
+    int contadorD = 0;
     void Start()
     {
-        
+       
     }
 
     
     void Update()
     {
-        //-144 el de la izq = 6
-        if (codigoIzq.transform.eulerAngles==new Vector3(-144,0,0))
-        {
-            Debug.Log("Primer numero bien");
-        }
-        else
-        {
-            Debug.Log("primer num mal");
-        }
-        //segundo num rot 0 = 0
-        if (codigoIzqMedio.transform.eulerAngles== new Vector3(0,0,0))
-        {
-            Debug.Log("Segundo numero bien");
-        }
-        else
-        {
-            Debug.Log("Segundo num mal");
-        }
-        //tercer num -72 rot = 8
-        if (codigodrchMedio.transform.eulerAngles==new Vector3(-72,0,0))
-        {
-            Debug.Log("Tercer numero bien");
-        }
-        else
-        {
-            Debug.Log("Tercer num mal");
-        }
-        //ultimjo num 144 rot = 4
-        if (codigodrch.transform.eulerAngles==new Vector3(144,0,0))
-        {
-            Debug.Log("Cuarto numero bien");
-        }
-        else
-        {
-            Debug.Log("Cuarto num mal");
-        }
+        
     }
 
     public void FlechaArribaIzq()
     {
+        contadorA++;
+        if(contadorA > 9)
+        {
+            contadorA = 0;
+        }
+        ComprobarContrasenha();
         codigoIzq.transform.Rotate(new Vector3(36, 0, 0));
     }
     public void FlechaAbajoIzq()
     {
+        contadorA--;
+        if(contadorA < 0)
+        {
+            contadorA = 9;
+        }
+        ComprobarContrasenha();
         codigoIzq.transform.Rotate(new Vector3(-36, 0, 0));
     }
     public void FlechaArribaIzqMedio()
     {
+        contadorB++;
+        if (contadorB<0)
+        {
+            contadorB = 9;
+        }
+        ComprobarContrasenha();
         codigoIzqMedio.transform.Rotate(new Vector3(36, 0, 0));
     }
     public void FlechaAbajoIzqMedio()
     {
+        contadorB--;
+        if (contadorB)
+        {
+
+        }
         codigoIzqMedio.transform.Rotate(new Vector3(-36, 0, 0));
     }
     public void FlechArribaDrchMedio()
@@ -91,5 +85,14 @@ public class Candado2 : MonoBehaviour
     public void FlechAbajoDrch()
     {
         codigodrch.transform.Rotate(new Vector3(-36, 0, 0));
+    }
+
+    void ComprobarContrasenha()
+    {
+        //ver si la cajita del array coicide con el num INDIVIDUALMENTE
+        if (arrayNumeros[0]== contadorA&&arrayNumeros[1]==contadorB&&arrayNumeros[2]==contadorC&& arrayNumeros[3]==contadorD)
+        {
+            //se abre el candado
+        }
     }
 }
