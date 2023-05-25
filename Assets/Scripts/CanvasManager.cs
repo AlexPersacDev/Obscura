@@ -19,6 +19,8 @@ public class CanvasManager : MonoBehaviour
     [SerializeField] Texture eye;
     [SerializeField] RawImage mirilla;
 
+
+
     void Start()
     {
         
@@ -47,7 +49,6 @@ public class CanvasManager : MonoBehaviour
         }
         else //si no está activada
         {
-            Debug.Log("EE");
             mirilla.gameObject.SetActive(true); //la activo
         }
     }

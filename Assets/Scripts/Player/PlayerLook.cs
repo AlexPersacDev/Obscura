@@ -80,20 +80,22 @@ public class PlayerLook : MonoBehaviour
         //}
         if (Physics.Raycast(ray, out RaycastHit hit, radiusInteract, interact)) //si detecto algo con el raycast que tenga la layermas interact
         {
-            interacting = true;
-            GameObject actualInteractuable = hit.transform.gameObject; //recojo el gameobject detectado 
-            //compruebo si tengo guardado un interactuable
-            if (!currentInteractuable) //si no tengo
+            if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Interact"))
             {
-                currentInteractuable = actualInteractuable; //hago que el current seal el objeto detectado
+                interacting = true;
+                GameObject actualInteractuable = hit.transform.gameObject; //recojo el gameobject detectado 
+                                                                           //compruebo si tengo guardado un interactuable
+                if (!currentInteractuable) //si no tengo
+                {
+                    currentInteractuable = actualInteractuable; //hago que el current seal el objeto detectado
+                }
+                else//si tengo guardado un interactuable
+                {
+                    currentInteractuable.GetComponent<Outline>().enabled = false; //desactivo el outline del guardado
+                    currentInteractuable = actualInteractuable; //hago que el current seal el objeto detectado
+                }
+                currentInteractuable.GetComponent<Outline>().enabled = true; //activo su script;
             }
-            else//si tengo guardado un interactuable
-            {
-                currentInteractuable.GetComponent<Outline>().enabled = false; //desactivo el outline del guardado
-                currentInteractuable = actualInteractuable; //hago que el current seal el objeto detectado
-            }
-            currentInteractuable.GetComponent<Outline>().enabled = true; //activo su script;
-            
         }
         else //si no he detctado nada interactuable
         {
@@ -184,18 +186,20 @@ public class PlayerLook : MonoBehaviour
                 {
                     gM.InteractuarCandado2();
                 }
+                else if (currentInteractuable.CompareTag("IcePick"))
+                {
+                    gM.IcePick();
+                    Destroy(currentInteractuable);
+                }
+                else if (currentInteractuable.CompareTag("WorkTable"))
+                {
+                    gM.WorkTable();
+                }
             }
         }
     }
     void GeneratingText()
     {
 
-    }
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("TriggerRoom"))
-        {
-            Debug.Log("W");
-        }
     }
 }

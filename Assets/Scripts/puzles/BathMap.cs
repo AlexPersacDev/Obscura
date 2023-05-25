@@ -9,6 +9,7 @@ public class BathMap : MonoBehaviour
     [SerializeField] Material[] map;
     Material map00; //y una variable donde guardar la textura inicial
     int index;
+    [SerializeField] GameObject photo;
     void Start()
     {
         rend = GetComponent<Renderer>();
@@ -28,6 +29,10 @@ public class BathMap : MonoBehaviour
         {
             rend.material = map[index]; //pongo la textura de dicho indice
             index++; //sumo 1 al indice
+            if (index >= 3)
+            {
+                photo.SetActive(true);
+            }
         }
         else //si el indice es mayor
             rend.material = map00; //hago que la textura vuelva a la principal
