@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     [Header("BathMap")]
     BathMap bMap;
     bool iceP;
+    [SerializeField] GameObject box;
 
     [Header("Drawer")]
     bool isOpen = false;
@@ -122,6 +123,7 @@ public class GameManager : MonoBehaviour
     public void BathDoor()
     {
         bMap.MapTexture();
+        Destroy(box);
     }
     public void ObjetoEnInventario(GameObject objetoRecogido)
     {
