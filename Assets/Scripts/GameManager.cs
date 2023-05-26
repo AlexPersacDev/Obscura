@@ -119,6 +119,10 @@ public class GameManager : MonoBehaviour
             bMap.MapTexture();
         }
     }
+    public void BathDoor()
+    {
+        bMap.MapTexture();
+    }
     public void ObjetoEnInventario(GameObject objetoRecogido)
     {
         //aqui va el metodo del inventario

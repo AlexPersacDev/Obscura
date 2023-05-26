@@ -18,6 +18,7 @@ TagManager:
   - Candado2
   - GarajeDoor
   - WorkTable
+  - BathDoor
   layers:
   - Default
   - TransparentFX

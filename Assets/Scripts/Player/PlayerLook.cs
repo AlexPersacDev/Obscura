@@ -179,6 +179,8 @@ public class PlayerLook : MonoBehaviour
                 {
                     //llamo al metodo publico del gm
                     gM.InteractuarCajaFuerte();
+                    Collider safeColl = currentInteractuable.GetComponent<Collider>();
+                    safeColl.enabled = false;
                 }
                 else if (currentInteractuable.CompareTag("ChestKey"))
                 {
@@ -212,6 +214,15 @@ public class PlayerLook : MonoBehaviour
                     gM.WorkTable();
                 }
             }
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("BathDoor"))
+        {
+            Debug.Log("EE");
+            gM.BathDoor();
+            Destroy(other);
         }
     }
     void GeneratingText()
