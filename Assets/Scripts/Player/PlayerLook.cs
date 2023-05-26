@@ -31,6 +31,7 @@ public class PlayerLook : MonoBehaviour
 
     bool firstLookOnCrock = true;
     bool firstLookOnBP = true;
+    int doorIndex = 0;
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;   //Oculta el cursor
@@ -220,10 +221,19 @@ public class PlayerLook : MonoBehaviour
     {
         if (other.CompareTag("BathDoor"))
         {
-            Debug.Log("EE");
-            gM.BathDoor();
-            Destroy(other);
+            doorIndex++;
+            if (doorIndex <= 1)
+            {
+                gM.BathDoor(other);
+                other.enabled = false;
+            }
+            else
+            {
+                gM.LetterTable();
+                other.enabled = false;
+            }
         }
+
     }
     void GeneratingText()
     {

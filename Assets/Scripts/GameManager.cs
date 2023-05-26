@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
     BathMap bMap;
     bool iceP;
     [SerializeField] GameObject box;
+    Collider doorCol;
 
     [Header("Drawer")]
     bool isOpen = false;
@@ -118,12 +119,19 @@ public class GameManager : MonoBehaviour
         if (iceP)
         {
             bMap.MapTexture();
+            doorCol.enabled = true;
         }
     }
-    public void BathDoor()
+    public void BathDoor(Collider door)
     {
         bMap.MapTexture();
         Destroy(box);
+        doorCol = door;
+    }
+    public void LetterTable()
+    {
+        bMap.key.SetActive(true);
+        bMap.letter.SetActive(true);
     }
     public void ObjetoEnInventario(GameObject objetoRecogido)
     {
