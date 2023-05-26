@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject canvasCandado2;
 
     bool haveChestKey;
+    bool haveDoorKey;
 
     [Header("BathMap")]
     BathMap bMap;
@@ -36,7 +37,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ChangeBathMapTexture();
+        
     }
 
     public void ActivatePhoto()
@@ -75,13 +76,13 @@ public class GameManager : MonoBehaviour
         }
         return haveChestKey;
     }
-
-    public void ChangeBathMapTexture() //metodo para cambiar la textura haciendo uso de otro metodo dentro del script de bathmap
+    public bool DoorKey(GameObject interactuable)
     {
-        if (Input.GetKeyDown(KeyCode.T))
+        if (interactuable.CompareTag("DoorKey"))//compruebo si el intecatuable es la llave
         {
-            bMap.MapTexture();
+            haveDoorKey = true;
         }
+        return haveDoorKey;
     }
 
     public void OpeningDoor(GameObject door)

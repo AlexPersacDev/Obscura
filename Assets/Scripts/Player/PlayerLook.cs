@@ -78,7 +78,7 @@ public class PlayerLook : MonoBehaviour
         //    }
         //    currentInteractuable = null; //vacio la variable
         //}
-        if (Physics.Raycast(ray, out RaycastHit hit, radiusInteract, interact)) //si detecto algo con el raycast que tenga la layermas interact
+        if (Physics.Raycast(ray, out RaycastHit hit, radiusInteract)) //si detecto algo con el raycast que tenga la layermas interact
         {
             if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Interact"))
             {
@@ -96,16 +96,25 @@ public class PlayerLook : MonoBehaviour
                 }
                 currentInteractuable.GetComponent<Outline>().enabled = true; //activo su script;
             }
-        }
-        else //si no he detctado nada interactuable
-        {
-            interacting = false;
-            if (currentInteractuable)//compruebo si tengo guardado algo en currentinteractuable
+            else //si no he detctado nada interactuable
             {
-                currentInteractuable.GetComponent<Outline>().enabled = false; //desactivo el outline del guardado
+                interacting = false;
+                if (currentInteractuable)//compruebo si tengo guardado algo en currentinteractuable
+                {
+                    currentInteractuable.GetComponent<Outline>().enabled = false; //desactivo el outline del guardado
+                }
+                currentInteractuable = null; //vacio la variable
             }
-            currentInteractuable = null; //vacio la variable
         }
+        //else //si no he detctado nada interactuable
+        //{
+        //    interacting = false;
+        //    if (currentInteractuable)//compruebo si tengo guardado algo en currentinteractuable
+        //    {
+        //        currentInteractuable.GetComponent<Outline>().enabled = false; //desactivo el outline del guardado
+        //    }
+        //    currentInteractuable = null; //vacio la variable
+        //}
     }
 
     void Interaction()
@@ -176,7 +185,12 @@ public class PlayerLook : MonoBehaviour
                     gM.ChestKey(currentInteractuable);//le digo al gm que tengo la llave
                     Destroy(currentInteractuable);
                 }
-                else if(currentInteractuable.CompareTag("Door"))
+                else if (currentInteractuable.CompareTag("DoorKey"))
+                {
+                    gM.DoorKey(currentInteractuable);//le digo al gm que tengo la llave
+                    Destroy(currentInteractuable);
+                }
+                else if(currentInteractuable.CompareTag("Door") && gM.DoorKey(currentInteractuable))
                 {
                     gM.OpeningDoor(currentInteractuable);
                 }

@@ -16,6 +16,8 @@ TagManager:
   - DoorKey
   - TriggerRoom
   - Candado2
+  - GarajeDoor
+  - WorkTable
   layers:
   - Default
   - TransparentFX
