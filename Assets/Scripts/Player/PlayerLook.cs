@@ -214,6 +214,10 @@ public class PlayerLook : MonoBehaviour
                 {
                     gM.WorkTable();
                 }
+                else if (currentInteractuable.CompareTag("Card"))
+                {
+                    gM.PokerCard(currentInteractuable);
+                }
             }
         }
     }

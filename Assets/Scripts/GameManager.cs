@@ -58,6 +58,7 @@ public class GameManager : MonoBehaviour
         Animator baulAnim = baul.GetComponent<Animator>();//pillo su animator
         baulAnim.SetTrigger("Opening");//activo la animación
         baul.gameObject.layer = 0; //deja de ser interactuable
+        baul.GetComponent<Collider>().enabled = false;
     }
     public void InteractuarCajaFuerte()
     {
@@ -132,6 +133,11 @@ public class GameManager : MonoBehaviour
     {
         bMap.key.SetActive(true);
         bMap.letter.SetActive(true);
+    }
+
+    public void PokerCard(GameObject card)
+    {
+        Destroy(card);
     }
     public void ObjetoEnInventario(GameObject objetoRecogido)
     {

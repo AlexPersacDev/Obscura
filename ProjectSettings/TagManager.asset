@@ -19,6 +19,7 @@ TagManager:
   - GarajeDoor
   - WorkTable
   - BathDoor
+  - Card
   layers:
   - Default
   - TransparentFX
