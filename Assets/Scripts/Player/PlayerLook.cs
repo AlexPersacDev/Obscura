@@ -36,6 +36,7 @@ public class PlayerLook : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;   //Oculta el cursor
         photos.Add(photo1);
+
     }
 
     void Update()
