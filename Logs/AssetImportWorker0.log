@@ -150,3 +150,65 @@ System memory in use after: 131.0 MB.
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3267.
 Total: 2.501200 ms (FindLiveObjects: 0.241000 ms CreateObjectMapping: 0.121200 ms MarkObjects: 2.118800 ms  DeleteObjects: 0.018800 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 163.862707 seconds.
+  path: Assets/Texturas/textures CajaForte
+  artifactKey: Guid(c8218e697a821904489fe62b66965db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/textures CajaForte using Guid(c8218e697a821904489fe62b66965db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2069414d3f92e23ee6c36c8f7f134def') in 0.015193 seconds
+  Import took 0.022461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.706410 seconds.
+  path: Assets/Texturas/textures CajaForte/kajaFuertee_cajafuerte1_BaseColor.png
+  artifactKey: Guid(d00c7df55e0fcfc4f95384650ba9ddc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/textures CajaForte/kajaFuertee_cajafuerte1_BaseColor.png using Guid(d00c7df55e0fcfc4f95384650ba9ddc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8973f2d4a844079588ff0b060ddd1183') in 0.070638 seconds
+  Import took 0.076546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004357 seconds.
+  path: Assets/Texturas/textures CajaForte/kajaFuertee_cajafuerte1_BaseColor.png
+  artifactKey: Guid(d00c7df55e0fcfc4f95384650ba9ddc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/textures CajaForte/kajaFuertee_cajafuerte1_BaseColor.png using Guid(d00c7df55e0fcfc4f95384650ba9ddc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8973f2d4a844079588ff0b060ddd1183') in 0.016075 seconds
+  Import took 0.022133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.270063 seconds.
+  path: Assets/Texturas/textures CajaForte/kajaFuertee_puerta2_BaseColor.png
+  artifactKey: Guid(0443b4e174c54f14db79d83207528230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/textures CajaForte/kajaFuertee_puerta2_BaseColor.png using Guid(0443b4e174c54f14db79d83207528230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802cc2937e9adab7ff2a5a40dbf7458d') in 0.016269 seconds
+  Import took 0.022193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004161 seconds.
+  path: Assets/Texturas/textures CajaForte/kajaFuertee_puerta2_BaseColor.png
+  artifactKey: Guid(0443b4e174c54f14db79d83207528230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/textures CajaForte/kajaFuertee_puerta2_BaseColor.png using Guid(0443b4e174c54f14db79d83207528230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802cc2937e9adab7ff2a5a40dbf7458d') in 0.015734 seconds
+  Import took 0.021222 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001594 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.995 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2578 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.8 MB.
+System memory in use after: 131.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3272.
+Total: 2.331500 ms (FindLiveObjects: 0.251200 ms CreateObjectMapping: 0.119900 ms MarkObjects: 1.940700 ms  DeleteObjects: 0.018600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
