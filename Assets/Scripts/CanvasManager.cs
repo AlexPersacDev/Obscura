@@ -15,6 +15,7 @@ public class CanvasManager : MonoBehaviour
     bool corutineOn;
 
     [Header("Mirilla")]
+    [SerializeField] Texture point;
     [SerializeField] Texture closedEye;
     [SerializeField] Texture eye;
     [SerializeField] RawImage mirilla;
@@ -32,14 +33,22 @@ public class CanvasManager : MonoBehaviour
         
     }
 
-    public void MirillaInteract(bool interacting)
+    public void MirillaInteract(bool interacting, bool detecting)
     {
-        if (interacting)
+        if (detecting)
         {
-            mirilla.texture = closedEye;
+            mirilla.texture = eye;
+
+            if (interacting)
+            {
+                mirilla.texture = closedEye;
+            }
+            else
+                mirilla.texture = eye;
         }
         else
-            mirilla.texture = eye;
+            mirilla.texture = point;
+        
     }
     public void EnableMirilla()//esto es pa q se quite la mirilla
     {

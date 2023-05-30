@@ -45,7 +45,7 @@ public class PlayerLook : MonoBehaviour
         Interaction();
         if (Input.GetKeyUp(KeyCode.E))
         {
-            cM.MirillaInteract(false);
+            cM.MirillaInteract(false, interacting);
         }
     }
 
@@ -123,6 +123,7 @@ public class PlayerLook : MonoBehaviour
     {
         if (interacting) //si el raycast detecta interactuable 
         {
+           //currentInteractuable.GetComponent<IInteractuable>().Interact();
             if (currentInteractuable.CompareTag("Corck") && firstLookOnCrock && !cM.CorutineOn())//si es la primera vez que miro el corcho
             {
                 cM.StartCoroutine(cM.GenerateDialogs(2));
@@ -137,7 +138,7 @@ public class PlayerLook : MonoBehaviour
             {
 
 
-                cM.MirillaInteract(true);
+                cM.MirillaInteract(true, interacting);
                 if (currentInteractuable.CompareTag("Corck")) //y el tag del interactuable es corck
                 {
                     for (int i = 0; i < photos.Count; i++)//compruebo cuantas fotos tengo 
@@ -171,7 +172,7 @@ public class PlayerLook : MonoBehaviour
                 {
                     photos.Add(photo1);//añadir uno al array de foto
                     Destroy(currentInteractuable);//deberia eliminarlo de la escena
-                    gM.ObjetoEnInventario(currentInteractuable);
+                    //gM.ObjetoEnInventario(currentInteractuable);
                 }
                 else if (currentInteractuable.CompareTag("Baul") && gM.ChestKey(currentInteractuable))//compruebo si se tiene la llave
                 {
