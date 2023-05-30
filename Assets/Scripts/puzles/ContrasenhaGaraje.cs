@@ -3,22 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 
-public class ContrasenhaCajaFuerte : MonoBehaviour
+public class ContrasenhaGaraje : MonoBehaviour
 {
-    //caja fuerte 3815
+    
     //puerta garaje 7627
 
     [SerializeField] string contra;
     string num = null;
     int index = 0;
 
-    [SerializeField] GameObject puertaCajaFuerte;
+    
 
     [SerializeField] CinemachineVirtualCamera playerLook;
-    [SerializeField] CinemachineVirtualCamera zoomCajaFuerte;
+    [SerializeField] CinemachineVirtualCamera zoomContraGaraje;
     [SerializeField] GameObject canvasContra;
 
-    [SerializeField] GameObject cajaFuerte;
+    [SerializeField] GameObject contraGarajeOBJ;
 
     [SerializeField] CanvasManager cM;
 
@@ -26,15 +26,24 @@ public class ContrasenhaCajaFuerte : MonoBehaviour
 
     Animator animCajaFuerte;
 
+    [SerializeField] GameObject puerta;
+    Animator animPuerta;
+
     private void Start()
     {
-        animRueda = cajaFuerte.GetComponent<Animator>();
+        animRueda = contraGarajeOBJ.GetComponent<Animator>();
+        animPuerta = puerta.GetComponent<Animator>();
         //animCajaFuerte = cajaFuerte.GetComponent<Animator>();
+    }
+    void Update()
+    {
+        Enter();
     }
     public void Codigo(string numeros)
     {
         index++;
-        num = num + numeros;
+        num += numeros;
+        Debug.Log("" + num);
         
     }
     public void Enter()
@@ -42,35 +51,30 @@ public class ContrasenhaCajaFuerte : MonoBehaviour
         if (num == contra)//se abre la caja fuerte
         {
 
-            ////cambia la camara
-            //playerLook.gameObject.SetActive(true);
-            //zoomCajaFuerte.gameObject.SetActive(false); 
-            ////se vuelve a desacvtivar el cursor
-            //Cursor.lockState = CursorLockMode.None;
-            //Cursor.visible = false;
-            ////se desactiva el canvas de la contraseña
-            //canvasContra.SetActive(false);
+          
+            Debug.Log("abierto");
+            animPuerta.SetTrigger("Abierto");
             Salida();
 
-
             //hago q deje de ser interactuable
-            cajaFuerte.layer = 0;
+            contraGarajeOBJ.layer = 0;
 
             //animacion manivela + abrirse
             animRueda.SetTrigger("AbriendoCaja");
             
         }
-        else//se resetea el num
-        {
-            index++;
-            num = null;
-        }
+        //else//se resetea el num
+        //{
+        //    index++;
+        //    num = null;
+        //}
     }
+    
     public void Salida()
     {
         //cambia la camara
         playerLook.gameObject.SetActive(true);
-        zoomCajaFuerte.gameObject.SetActive(false);
+        zoomContraGaraje.gameObject.SetActive(false);
         //se vuelve a desacvtivar el cursor
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = false;
@@ -110,6 +114,7 @@ public class ContrasenhaCajaFuerte : MonoBehaviour
     public void PresionarSiete()
     {
         animRueda.SetTrigger("7");
+   
     }
     public void PresionarOcho()
     {
