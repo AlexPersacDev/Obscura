@@ -69,7 +69,7 @@ public class GameManager : MonoBehaviour
         canvasCOntrasenha.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-        cM.MirillaInteract(false);
+        cM.MirillaInteract(false, false);
         cM.EnableMirilla();
     }
 
@@ -109,7 +109,7 @@ public class GameManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         canvasCandado2.SetActive(true);
-        cM.MirillaInteract(false);
+        cM.MirillaInteract(false, false);
         cM.EnableMirilla();
     }
     public void IcePick()
@@ -152,7 +152,7 @@ public class GameManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         canvasContraGaraje.SetActive(true);
-        cM.MirillaInteract(false);
+        cM.MirillaInteract(false, false);
         cM.EnableMirilla();
     }
 

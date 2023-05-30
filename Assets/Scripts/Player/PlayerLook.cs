@@ -21,6 +21,7 @@ public class PlayerLook : MonoBehaviour
 
     GameObject currentInteractuable;
     bool interacting;
+    bool pressE;
 
     List<GameObject> photos = new List<GameObject>();
     GameObject[] brokenPhotos = new GameObject[3];
@@ -45,7 +46,8 @@ public class PlayerLook : MonoBehaviour
         Interaction();
         if (Input.GetKeyUp(KeyCode.E))
         {
-            cM.MirillaInteract(false, interacting);
+            pressE = false;
+            cM.MirillaInteract(pressE, interacting);
         }
     }
 
@@ -85,6 +87,7 @@ public class PlayerLook : MonoBehaviour
             if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Interact"))
             {
                 interacting = true;
+                cM.MirillaInteract(pressE, interacting);
                 GameObject actualInteractuable = hit.transform.gameObject; //recojo el gameobject detectado 
                                                                            //compruebo si tengo guardado un interactuable
                 if (!currentInteractuable) //si no tengo
@@ -101,6 +104,7 @@ public class PlayerLook : MonoBehaviour
             else //si no he detctado nada interactuable
             {
                 interacting = false;
+                cM.MirillaInteract(pressE, interacting);
                 if (currentInteractuable)//compruebo si tengo guardado algo en currentinteractuable
                 {
                     currentInteractuable.GetComponent<Outline>().enabled = false; //desactivo el outline del guardado
@@ -137,8 +141,8 @@ public class PlayerLook : MonoBehaviour
             else if (Input.GetKeyDown(KeyCode.E)) //y pulso E
             {
 
-
-                cM.MirillaInteract(true, interacting);
+                pressE = true;
+                cM.MirillaInteract(pressE, interacting);
                 if (currentInteractuable.CompareTag("Corck")) //y el tag del interactuable es corck
                 {
                     for (int i = 0; i < photos.Count; i++)//compruebo cuantas fotos tengo 
