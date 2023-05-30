@@ -4,26 +4,26 @@ OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'es' Phy
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\2020.3.6f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Scopophobia_00
+D:/Paula/Programacion/Nueva carpeta (2)/Scopophobia_00
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51231
-Successfully changed project path to: D:/Scopophobia_00
-D:/Scopophobia_00
+54674
+Successfully changed project path to: D:/Paula/Programacion/Nueva carpeta (2)/Scopophobia_00
+D:/Paula/Programacion/Nueva carpeta (2)/Scopophobia_00
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 60.97 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 57.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Scopophobia_00/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Paula/Programacion/Nueva carpeta (2)/Scopophobia_00/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -33,191 +33,120 @@ Direct3D:
     Driver:   30.0.14.7168
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Mono path[0] = 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.247954 seconds.
+Register platform support module: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002678 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.89 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 57.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.941 seconds
+- Completed reload, in  2.535 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.123717 seconds.
+Registered in 0.001610 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 59.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.049 seconds
+- Completed reload, in  1.106 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2735 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2736 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 137.1 MB.
 System memory in use after: 137.3 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3183.
-Total: 2.456400 ms (FindLiveObjects: 0.296400 ms CreateObjectMapping: 0.134600 ms MarkObjects: 1.943000 ms  DeleteObjects: 0.081300 ms)
+Total: 2.552900 ms (FindLiveObjects: 0.268900 ms CreateObjectMapping: 0.132600 ms MarkObjects: 2.065600 ms  DeleteObjects: 0.084700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/RecursosVarios/Polaroid/textures
-  artifactKey: Guid(fbfaf3c3cb1fb8243b12a5e661386cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RecursosVarios/Polaroid/textures using Guid(fbfaf3c3cb1fb8243b12a5e661386cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987de559becbfcbd36a0baabced605bf') in 0.010939 seconds
-  Import took 0.023564 seconds .
+  path: Assets/Materials/definitivos/Taquilla.mat
+  artifactKey: Guid(e69dd07181e93db4b95930517542d818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Taquilla.mat using Guid(e69dd07181e93db4b95930517542d818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e747141043c41d1957ba647d1beb94') in 0.282164 seconds
+  Import took 0.288163 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/RecursosVarios/Polaroid/textures/POLAROID FINISHED UV TEXTURED.jpeg
-  artifactKey: Guid(147a7fd1d74ccf345a799eb838b0a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RecursosVarios/Polaroid/textures/POLAROID FINISHED UV TEXTURED.jpeg using Guid(147a7fd1d74ccf345a799eb838b0a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb6114ac38bd7d0f05c3309c2b836b9') in 0.148294 seconds
-  Import took 0.152669 seconds .
+  Time since last request: 0.000219 seconds.
+  path: Assets/Materials/definitivos
+  artifactKey: Guid(5a0d908ef4dec914badcd864ff933500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos using Guid(5a0d908ef4dec914badcd864ff933500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71399d21d5347a3a3c82ae42c09feed') in 0.007362 seconds
+  Import took 0.012291 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/RecursosVarios/Polaroid/source
-  artifactKey: Guid(65e02e25ac7947a4fb91b5db0d71d638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RecursosVarios/Polaroid/source using Guid(65e02e25ac7947a4fb91b5db0d71d638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8220d0545b39d5ee04f0eb80b397b0') in 0.006509 seconds
-  Import took 0.016134 seconds .
+  Time since last request: 0.000186 seconds.
+  path: Assets/Materials/definitivos/Key.mat
+  artifactKey: Guid(b830693ee228b8143bc98eb93c59b8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Key.mat using Guid(b830693ee228b8143bc98eb93c59b8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6229b1ae232b862265f2c12f1a76e016') in 0.032042 seconds
+  Import took 0.038156 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/RecursosVarios/Polaroid/source/POLAROID.fbx
-  artifactKey: Guid(fcb38dd90baf9d1429ae5317b614635a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RecursosVarios/Polaroid/source/POLAROID.fbx using Guid(fcb38dd90baf9d1429ae5317b614635a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211a04a112d3878d22027bfa9774731a') in 0.327326 seconds
-  Import took 0.331883 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/RecursosVarios/Polaroid/textures/specular_map_polaroid.jpg
-  artifactKey: Guid(043015e34fe61bc45bcae3fc091be652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RecursosVarios/Polaroid/textures/specular_map_polaroid.jpg using Guid(043015e34fe61bc45bcae3fc091be652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103f1a3a32e6730923b3e8fe30ece5de') in 0.019914 seconds
-  Import took 0.036125 seconds .
+  Time since last request: 0.000239 seconds.
+  path: Assets/Materials/definitivos/Puerta taquilla.mat
+  artifactKey: Guid(a89fa3a9bed82e045a3027e3ba19ee50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Puerta taquilla.mat using Guid(a89fa3a9bed82e045a3027e3ba19ee50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa8224fd1d9ab3d89b7b3179a8a86db') in 0.030136 seconds
+  Import took 0.035907 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000192 seconds.
-  path: Assets/RecursosVarios/Polaroid
-  artifactKey: Guid(7f03029b0fa9f0c42bb7dfc068422e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RecursosVarios/Polaroid using Guid(7f03029b0fa9f0c42bb7dfc068422e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63ea9567af3a3b4703d79e1ac3b90d0') in 0.007478 seconds
-  Import took 0.012002 seconds .
+  path: Assets/Materials/definitivos/Barril.mat
+  artifactKey: Guid(ba808ea94aa3c7740970c716205489ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/definitivos/Barril.mat using Guid(ba808ea94aa3c7740970c716205489ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2489f3ad2a6077c89605854086095ea7') in 0.028279 seconds
+  Import took 0.034115 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 88.197877 seconds.
-  path: Assets/RecursosVarios/Polaroid/textures/Polaroid.mat
-  artifactKey: Guid(6041af36ff0749e42a342bf65d25ea65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RecursosVarios/Polaroid/textures/Polaroid.mat using Guid(6041af36ff0749e42a342bf65d25ea65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944a94f22e2abb59148ed3a142112fff') in 0.013914 seconds
-  Import took 0.025521 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.206 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2578 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.8 MB.
+System memory in use after: 131.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3264.
+Total: 2.629500 ms (FindLiveObjects: 0.353700 ms CreateObjectMapping: 0.196900 ms MarkObjects: 2.057500 ms  DeleteObjects: 0.019900 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 131.002673 seconds.
-  path: Assets/RecursosVarios/Polaroid/textures/Polaroid.mat
-  artifactKey: Guid(6041af36ff0749e42a342bf65d25ea65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RecursosVarios/Polaroid/textures/Polaroid.mat using Guid(6041af36ff0749e42a342bf65d25ea65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e282cfe6b0a4110d5b0b3d2de84e384b') in 0.026724 seconds
-  Import took 0.032062 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001620 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2578 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.8 MB.
+System memory in use after: 131.0 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 314.826573 seconds.
-  path: Assets/RecursosVarios/Polaroid/Flash.png
-  artifactKey: Guid(23aecba09814b1c45ae8bf5ea3f1632d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RecursosVarios/Polaroid/Flash.png using Guid(23aecba09814b1c45ae8bf5ea3f1632d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6740378b88d38a73aa4b8e1c52578fb4') in 0.017437 seconds
-  Import took 0.023357 seconds .
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3267.
+Total: 2.501200 ms (FindLiveObjects: 0.241000 ms CreateObjectMapping: 0.121200 ms MarkObjects: 2.118800 ms  DeleteObjects: 0.018800 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 12.645626 seconds.
-  path: Assets/RecursosVarios/Polaroid/Flash.png
-  artifactKey: Guid(23aecba09814b1c45ae8bf5ea3f1632d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RecursosVarios/Polaroid/Flash.png using Guid(23aecba09814b1c45ae8bf5ea3f1632d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94ce9f6a809fc5250a50355b33e7439') in 0.063937 seconds
-  Import took 0.111687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 343.201382 seconds.
-  path: Assets/RecursosVarios/Polaroid/Flash.controller
-  artifactKey: Guid(980b84f21276a054dabb108372fb3a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RecursosVarios/Polaroid/Flash.controller using Guid(980b84f21276a054dabb108372fb3a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4282bba22c3baa2947b50c1864d90d7') in 0.005306 seconds
-  Import took 0.024283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.361571 seconds.
-  path: Assets/Animacion Final
-  artifactKey: Guid(2b458a4d494c26c4c8d3d6dcfd87b01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animacion Final using Guid(2b458a4d494c26c4c8d3d6dcfd87b01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f162cb8cb86d3b09629ccffc744f5edb') in 0.005950 seconds
-  Import took 0.022883 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.260744 seconds.
-  path: Assets/RecursosVarios/Polaroid/Materials/POLAROID FINISHED UV TEXTURED.mat
-  artifactKey: Guid(8e7c29fdda3f5a940840205146212fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RecursosVarios/Polaroid/Materials/POLAROID FINISHED UV TEXTURED.mat using Guid(8e7c29fdda3f5a940840205146212fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7daff177d9970d43f9b38d5a7b0724') in 0.014816 seconds
-  Import took 0.030510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/RecursosVarios/Polaroid/Materials/specular_map_polaroid.mat
-  artifactKey: Guid(a657dfb032869df42a35c32dcf70cf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RecursosVarios/Polaroid/Materials/specular_map_polaroid.mat using Guid(a657dfb032869df42a35c32dcf70cf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c94241e22430853ddde0b6a95bba2e') in 0.015821 seconds
-  Import took 0.021191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.292601 seconds.
-  path: Assets/Animacion Final/Polaroid/Materials
-  artifactKey: Guid(a48dcca9e5f72a942bf75e35382947d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animacion Final/Polaroid/Materials using Guid(a48dcca9e5f72a942bf75e35382947d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96d70e3fa211922451ff035289f2670') in 0.006772 seconds
-  Import took 0.012543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000975 seconds.
-  path: Assets/Animacion Final/Polaroid/Materials
-  artifactKey: Guid(a48dcca9e5f72a942bf75e35382947d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animacion Final/Polaroid/Materials using Guid(a48dcca9e5f72a942bf75e35382947d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96d70e3fa211922451ff035289f2670') in 0.001520 seconds
-  Import took 0.006303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 202.904022 seconds.
-  path: Assets/Anims/Flash.anim
-  artifactKey: Guid(dd2c23dcd57bad54c936bf10918144f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anims/Flash.anim using Guid(dd2c23dcd57bad54c936bf10918144f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999979f4ca1ebf05a6c2ad9e9a811775') in 0.004203 seconds
-  Import took 0.032470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004017 seconds.
-  path: Assets/Anims/Flash.anim
-  artifactKey: Guid(dd2c23dcd57bad54c936bf10918144f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anims/Flash.anim using Guid(dd2c23dcd57bad54c936bf10918144f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999979f4ca1ebf05a6c2ad9e9a811775') in 0.002103 seconds
-  Import took 0.008510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.850833 seconds.
-  path: Assets/Anims/Flash.anim
-  artifactKey: Guid(dd2c23dcd57bad54c936bf10918144f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anims/Flash.anim using Guid(dd2c23dcd57bad54c936bf10918144f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2de7122719cdc9f2ab86c348db5244') in 0.002612 seconds
-  Import took 0.008853 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
