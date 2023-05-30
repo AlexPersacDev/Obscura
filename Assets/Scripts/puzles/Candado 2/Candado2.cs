@@ -5,7 +5,7 @@ using Cinemachine;
 
 public class Candado2 : MonoBehaviour
 {
-    //la contraseña es 6084
+    //la contraseña es 6184
 
     [SerializeField] CinemachineVirtualCamera playerLook;
     [SerializeField] CinemachineVirtualCamera zoomCandado2;
@@ -28,7 +28,7 @@ public class Candado2 : MonoBehaviour
     void Start()
     {
         arrayNumeros[0] = 6;
-        arrayNumeros[1] = 0;
+        arrayNumeros[1] = 1;
         arrayNumeros[2] = 8;
         arrayNumeros[3] = 4;
 
