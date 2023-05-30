@@ -218,6 +218,10 @@ public class PlayerLook : MonoBehaviour
                 {
                     gM.PokerCard(currentInteractuable);
                 }
+                else if (currentInteractuable.CompareTag("ContraGaraje"))
+                {
+                    gM.IntercatuarContraGaraje();
+                }
             }
         }
     }

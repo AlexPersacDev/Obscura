@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject canvasCOntrasenha;
     [SerializeField] CinemachineVirtualCamera zoomCandado2;
     [SerializeField] GameObject canvasCandado2;
+    [SerializeField] GameObject canvasContraGaraje;
+    [SerializeField] CinemachineVirtualCamera zoomContraGaraje;
 
     bool haveChestKey;
     bool haveDoorKey;
@@ -142,6 +144,16 @@ public class GameManager : MonoBehaviour
     public void ObjetoEnInventario(GameObject objetoRecogido)
     {
         //aqui va el metodo del inventario
+    }
+    public void IntercatuarContraGaraje()
+    {
+        playerLook.gameObject.SetActive(false);
+        zoomContraGaraje.gameObject.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        canvasContraGaraje.SetActive(true);
+        cM.MirillaInteract(false);
+        cM.EnableMirilla();
     }
 
 
