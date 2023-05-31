@@ -138,5 +138,14 @@ public class Candado2 : MonoBehaviour
             cM.EnableMirilla();
         }
     }
+    public void Exit()
+    {
+        zoomCandado2.gameObject.SetActive(false);
+        playerLook.gameObject.SetActive(true);
+        this.gameObject.SetActive(false);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = false;
+        cM.EnableMirilla();
+    }
    
 }

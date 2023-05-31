@@ -1,0 +1,243 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'es' Physical Memory: 16306 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/AlexPereira/Programacion/Scopophobia_00
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59635
+Successfully changed project path to: D:/AlexPereira/Programacion/Scopophobia_00
+D:/AlexPereira/Programacion/Scopophobia_00
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 62.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/AlexPereira/Programacion/Scopophobia_00/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K620 (ID=0x13bb)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   30.0.14.7168
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002577 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.451 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001636 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.097 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2747 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.1 MB.
+System memory in use after: 138.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3196.
+Total: 3.050500 ms (FindLiveObjects: 0.276800 ms CreateObjectMapping: 0.134700 ms MarkObjects: 2.561400 ms  DeleteObjects: 0.076300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/RecursosVarios/Mirilla/Mirilla Punto.png
+  artifactKey: Guid(710e3d14fd9a75c44844e83c6c28ad3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Mirilla/Mirilla Punto.png using Guid(710e3d14fd9a75c44844e83c6c28ad3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3850fee5befa017b69836cd4122223') in 0.060575 seconds
+  Import took 0.065399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.710026 seconds.
+  path: Assets/RecursosVarios/Mirilla/Mirilla Punto.png
+  artifactKey: Guid(710e3d14fd9a75c44844e83c6c28ad3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Mirilla/Mirilla Punto.png using Guid(710e3d14fd9a75c44844e83c6c28ad3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3850fee5befa017b69836cd4122223') in 0.007210 seconds
+  Import took 0.013371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.932101 seconds.
+  path: Assets/RecursosVarios/Mirilla/Mirilla Cerrada.png
+  artifactKey: Guid(b4da69ed2c047f340b641d28acca6b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Mirilla/Mirilla Cerrada.png using Guid(b4da69ed2c047f340b641d28acca6b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073058695964028ad62c66261ca6304d') in 0.048240 seconds
+  Import took 0.065206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.140034 seconds.
+  path: Assets/RecursosVarios/Mirilla/Mirilla Punto.png
+  artifactKey: Guid(710e3d14fd9a75c44844e83c6c28ad3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Mirilla/Mirilla Punto.png using Guid(710e3d14fd9a75c44844e83c6c28ad3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b0fbb0229074970d2df1a933bdd44c') in 0.014988 seconds
+  Import took 0.021290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/RecursosVarios/Mirilla/Mirilla Punto.png
+  artifactKey: Guid(710e3d14fd9a75c44844e83c6c28ad3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Mirilla/Mirilla Punto.png using Guid(710e3d14fd9a75c44844e83c6c28ad3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b0fbb0229074970d2df1a933bdd44c') in 0.007916 seconds
+  Import took 0.013405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.086807 seconds.
+  path: Assets/RecursosVarios/Mirilla/Mirilla.png
+  artifactKey: Guid(ceee9abf0e3d745429772cd83f7e8867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Mirilla/Mirilla.png using Guid(ceee9abf0e3d745429772cd83f7e8867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f051c0328b49745234ac8fe3edd1b9') in 0.021655 seconds
+  Import took 0.042780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.655902 seconds.
+  path: Assets/RecursosVarios/Mirilla/Mirilla Punto.png
+  artifactKey: Guid(710e3d14fd9a75c44844e83c6c28ad3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Mirilla/Mirilla Punto.png using Guid(710e3d14fd9a75c44844e83c6c28ad3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038b8b7068c40320e9f03f9eaa3fed82') in 0.008297 seconds
+  Import took 0.018433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001013 seconds.
+  path: Assets/RecursosVarios/Mirilla/Mirilla Punto.png
+  artifactKey: Guid(710e3d14fd9a75c44844e83c6c28ad3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Mirilla/Mirilla Punto.png using Guid(710e3d14fd9a75c44844e83c6c28ad3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038b8b7068c40320e9f03f9eaa3fed82') in 0.008469 seconds
+  Import took 0.014018 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001593 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2590 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.4 MB.
+System memory in use after: 129.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3206.
+Total: 2.222000 ms (FindLiveObjects: 0.259900 ms CreateObjectMapping: 0.122700 ms MarkObjects: 1.819800 ms  DeleteObjects: 0.018800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001837 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.997 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2590 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.4 MB.
+System memory in use after: 129.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3209.
+Total: 2.522200 ms (FindLiveObjects: 0.386500 ms CreateObjectMapping: 0.125000 ms MarkObjects: 1.985100 ms  DeleteObjects: 0.023900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001594 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2590 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.5 MB.
+System memory in use after: 129.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3212.
+Total: 2.229800 ms (FindLiveObjects: 0.241200 ms CreateObjectMapping: 0.124000 ms MarkObjects: 1.844900 ms  DeleteObjects: 0.018800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002326 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.149 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2590 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.5 MB.
+System memory in use after: 129.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3215.
+Total: 3.961400 ms (FindLiveObjects: 0.362700 ms CreateObjectMapping: 0.126700 ms MarkObjects: 3.441400 ms  DeleteObjects: 0.028600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 639.146656 seconds.
+  path: Assets/Scenes/Blocking_Final_Game
+  artifactKey: Guid(a9aa8275e2631604a985f68c696b6078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Blocking_Final_Game using Guid(a9aa8275e2631604a985f68c696b6078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ecfce76b158bbb9a8770d8c101d49c') in 0.016208 seconds
+  Import took 0.032289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.249047 seconds.
+  path: Assets/Scenes/Blocking_Final_Game/Final_Game.unity
+  artifactKey: Guid(b39121334d920804da7ba2490010b400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Blocking_Final_Game/Final_Game.unity using Guid(b39121334d920804da7ba2490010b400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3684a23a46dcc40c8960a77e31d139c1') in 0.022206 seconds
+  Import took 0.031203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.343299 seconds.
+  path: Assets/Scenes/Final_Game/Final_Game.unity
+  artifactKey: Guid(7d34b45114dae0a49852cb33609589db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Final_Game/Final_Game.unity using Guid(7d34b45114dae0a49852cb33609589db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebc7419ca2bb4ad32d7319f68e2a473') in 0.003372 seconds
+  Import took 0.009392 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
