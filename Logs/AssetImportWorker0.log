@@ -4,26 +4,26 @@ OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'es' Phy
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\2020.3.6f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Paula/Programacion/Nueva carpeta (2)/Scopophobia_00
+D:/Scopophobia_00
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52221
-Successfully changed project path to: D:/Paula/Programacion/Nueva carpeta (2)/Scopophobia_00
-D:/Paula/Programacion/Nueva carpeta (2)/Scopophobia_00
+52630
+Successfully changed project path to: D:/Scopophobia_00
+D:/Scopophobia_00
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 58.52 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 62.88 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
-[Subsystems] Discovering subsystems at path C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Paula/Programacion/Nueva carpeta (2)/Scopophobia_00/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Scopophobia_00/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -33,158 +33,342 @@ Direct3D:
     Driver:   30.0.14.7168
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003312 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002554 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.52 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 61.87 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.772 seconds
+- Completed reload, in  2.561 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001630 seconds.
+Registered in 0.001456 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 64.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
+- Completed reload, in  1.144 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2748 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.2 MB.
-System memory in use after: 138.4 MB.
+System memory in use before: 137.5 MB.
+System memory in use after: 137.7 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3197.
-Total: 2.498100 ms (FindLiveObjects: 0.280300 ms CreateObjectMapping: 0.131000 ms MarkObjects: 1.996400 ms  DeleteObjects: 0.089300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Materials/Cuadros
-  artifactKey: Guid(954fcee8e9555eb439d1ba310de1f4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros using Guid(954fcee8e9555eb439d1ba310de1f4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2056494ef0f859e97a6ff859a5de6e5') in 0.014000 seconds
-  Import took 0.047267 seconds .
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3196.
+Total: 4.539200 ms (FindLiveObjects: 0.705800 ms CreateObjectMapping: 0.326000 ms MarkObjects: 3.339800 ms  DeleteObjects: 0.165600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 73.898568 seconds.
-  path: Assets/Materials/Cuadros/Cuadro 1
-  artifactKey: Guid(4477bf1b607595849871dccfe23e5e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro 1 using Guid(4477bf1b607595849871dccfe23e5e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b2b0af48833e061e2f619ce41eafcf') in 0.008945 seconds
-  Import took 0.029396 seconds .
+  path: Assets/Texturas/CumCock/Cuco_Normal.png
+  artifactKey: Guid(6182fb3ce265766448c89fe98715d5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/CumCock/Cuco_Normal.png using Guid(6182fb3ce265766448c89fe98715d5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbf8a1c1a26c551aa886a71d39c981b') in 0.244170 seconds
+  Import took 0.250702 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.969870 seconds.
-  path: Assets/Materials/Cuadros/Cuadro 1/Cuadro1
-  artifactKey: Guid(80d3e229f1c9fee4dafd6e03437b964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro 1/Cuadro1 using Guid(80d3e229f1c9fee4dafd6e03437b964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5c09a1e5ab67d8948b4c91d6daba96') in 0.007125 seconds
-  Import took 0.023939 seconds .
+  Time since last request: 0.000383 seconds.
+  path: Assets/Texturas/CumCock/Cuco_Metallic.png
+  artifactKey: Guid(6ec45f75226aced48907411579e73e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/CumCock/Cuco_Metallic.png using Guid(6ec45f75226aced48907411579e73e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f007669b6248e79cf5c569533986e49d') in 0.049658 seconds
+  Import took 0.054969 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.297559 seconds.
-  path: Assets/Materials/Cuadros/Cuadro2
-  artifactKey: Guid(e9a49215831bf5d45b87f9a0eb33b573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro2 using Guid(e9a49215831bf5d45b87f9a0eb33b573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9a4eb6883c8809985d4ffaaab27f40') in 0.007553 seconds
-  Import took 0.025014 seconds .
+  Time since last request: 0.000200 seconds.
+  path: Assets/Texturas/CumCock/Cuco_Normal_DirectX.png
+  artifactKey: Guid(6fb60b5d90d751d4ebfb01e8ec090ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/CumCock/Cuco_Normal_DirectX.png using Guid(6fb60b5d90d751d4ebfb01e8ec090ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d1a9fbed6ca09b5bc0e870cbf2c2b5') in 0.089279 seconds
+  Import took 0.093921 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.611233 seconds.
-  path: Assets/Materials/Cuadros/Cuadro2/Cuadro2
-  artifactKey: Guid(c193ed8d9d1ee614bb93c3f7c6ade231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro2/Cuadro2 using Guid(c193ed8d9d1ee614bb93c3f7c6ade231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb02296138d964b8b92a71cf10cf38cb') in 0.002834 seconds
-  Import took 0.017612 seconds .
+  Time since last request: 0.000199 seconds.
+  path: Assets/RecursosVarios/Cuco/Cuco_Model.fbx
+  artifactKey: Guid(f4c6f37d2b351a447aa60e4156c554c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Cuco/Cuco_Model.fbx using Guid(f4c6f37d2b351a447aa60e4156c554c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83cb2abc029a81f27c792a79569f5ca') in 0.403388 seconds
+  Import took 0.418843 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.386295 seconds.
-  path: Assets/Materials/Cuadros/Cuadro3
-  artifactKey: Guid(88936c50604538f41b6a99e7a9d98f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro3 using Guid(88936c50604538f41b6a99e7a9d98f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73230f494ef385736fefc8480ec5d099') in 0.009075 seconds
-  Import took 0.031841 seconds .
+  Time since last request: 0.000214 seconds.
+  path: Assets/Materials/Cuco.mat
+  artifactKey: Guid(e35293fc66cdca44cb87a3a0b0efffc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cuco.mat using Guid(e35293fc66cdca44cb87a3a0b0efffc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1cfe5659e04a167b3f602f48015147') in 0.146608 seconds
+  Import took 0.162234 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.743767 seconds.
-  path: Assets/Materials/Cuadros/Cuadro3/Cuadro3
-  artifactKey: Guid(17d9cca8c0a56e64b8d85382a759c393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro3/Cuadro3 using Guid(17d9cca8c0a56e64b8d85382a759c393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136deece17938258ae2c32998553c6b5') in 0.002448 seconds
-  Import took 0.015509 seconds .
+  Time since last request: 0.000181 seconds.
+  path: Assets/Texturas/CumCock/Cuco_Base_color.png
+  artifactKey: Guid(a32321c05fc25894c968e97d9a16a3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/CumCock/Cuco_Base_color.png using Guid(a32321c05fc25894c968e97d9a16a3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fe9ec7ce91fa7ebca09086127970b0') in 0.015084 seconds
+  Import took 0.025440 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.658135 seconds.
-  path: Assets/Materials/Cuadros/Cuadro3/Cuadro3/lambert1_Roughness.png
-  artifactKey: Guid(7608ecb2923944841b87ea14cf97719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro3/Cuadro3/lambert1_Roughness.png using Guid(7608ecb2923944841b87ea14cf97719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d78a5b6f813225b17a6bd99f145f7fd') in 0.165656 seconds
-  Import took 0.174155 seconds .
+  Time since last request: 0.000240 seconds.
+  path: Assets/Texturas/CumCock/Cuco_Height.png
+  artifactKey: Guid(e36182e8e7187e742a1cf8e051e55672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/CumCock/Cuco_Height.png using Guid(e36182e8e7187e742a1cf8e051e55672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a46c7f136339f78a398d54eeafd01c') in 0.014378 seconds
+  Import took 0.019764 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.600176 seconds.
-  path: Assets/Materials/Cuadros/Cuadro4
-  artifactKey: Guid(75b785e8ad3ee264a95f5fd9825a6a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro4 using Guid(75b785e8ad3ee264a95f5fd9825a6a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948e4f7e09d09f81e154859052e6c604') in 0.008637 seconds
-  Import took 0.015923 seconds .
+  Time since last request: 0.000199 seconds.
+  path: Assets/Texturas/CumCock/Cuco_Mixed_AO.png
+  artifactKey: Guid(1de4b260c3698c1479be1f49573d7c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/CumCock/Cuco_Mixed_AO.png using Guid(1de4b260c3698c1479be1f49573d7c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d99d7effb2ad3ac5011c42aca9780e') in 0.015007 seconds
+  Import took 0.032622 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.687444 seconds.
-  path: Assets/Materials/Cuadros/Cuadro4/Cuadro4
-  artifactKey: Guid(b1501c8c28c51b24b993ea74638de6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro4/Cuadro4 using Guid(b1501c8c28c51b24b993ea74638de6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b41599f98fb37094fcde1b17864a94') in 0.002316 seconds
-  Import took 0.008598 seconds .
+  Time since last request: 0.000190 seconds.
+  path: Assets/RecursosVarios/Cuco
+  artifactKey: Guid(5a26aebf915d7b04c8435909422aaef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Cuco using Guid(5a26aebf915d7b04c8435909422aaef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d0ed9d2ecca441932ac2d8a77d53b9') in 0.002245 seconds
+  Import took 0.014012 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.486919 seconds.
-  path: Assets/Materials/Cuadros/Cuadro5
-  artifactKey: Guid(6337919760cfcbf4f97b28770086649a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro5 using Guid(6337919760cfcbf4f97b28770086649a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4a1bb77a70a2b84af859430e725ff2') in 0.013247 seconds
-  Import took 0.030280 seconds .
+  Time since last request: 0.000184 seconds.
+  path: Assets/Texturas/CumCock/Cuco_Roughness.png
+  artifactKey: Guid(1e34167f80168fc4793faccaa29ea132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/CumCock/Cuco_Roughness.png using Guid(1e34167f80168fc4793faccaa29ea132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a1406313d72c5eaa712db1f2fbaf58') in 0.041621 seconds
+  Import took 0.046750 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.866290 seconds.
-  path: Assets/Materials/Cuadros/Cuadro5/Cuadro5
-  artifactKey: Guid(f7407b9bd56a04743840c3b07e38b63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro5/Cuadro5 using Guid(f7407b9bd56a04743840c3b07e38b63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9637df0ae2b9bb4cb8e48786ffc5653') in 0.002690 seconds
-  Import took 0.013756 seconds .
+  Time since last request: 36.171522 seconds.
+  path: Assets/Materials/Cuadros/Cuadro 1/Cuadro1/Cuadro1.mat
+  artifactKey: Guid(f35b528ca4e36fc44a77c42cec5d7b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cuadros/Cuadro 1/Cuadro1/Cuadro1.mat using Guid(f35b528ca4e36fc44a77c42cec5d7b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fe21d4a7f97c56af26e7245286b8e5') in 0.029646 seconds
+  Import took 0.035822 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000936 seconds.
-  path: Assets/Materials/Cuadros/Cuadro5/Cuadro5
-  artifactKey: Guid(f7407b9bd56a04743840c3b07e38b63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro5/Cuadro5 using Guid(f7407b9bd56a04743840c3b07e38b63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9637df0ae2b9bb4cb8e48786ffc5653') in 0.002110 seconds
-  Import took 0.008621 seconds .
+  Time since last request: 0.000250 seconds.
+  path: Assets/Materials/Cuadros/Cuadro4/Cuadro4/Cuadro4.mat
+  artifactKey: Guid(fbc668eaae243fc4d934ff4c1280ce23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cuadros/Cuadro4/Cuadro4/Cuadro4.mat using Guid(fbc668eaae243fc4d934ff4c1280ce23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607cd2bcfa38c2aad543aa7551a6c529') in 0.032878 seconds
+  Import took 0.042981 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.863587 seconds.
-  path: Assets/Materials/Cuadros/Cuadro6
-  artifactKey: Guid(298972849aeac3d4d8f536e10f797d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro6 using Guid(298972849aeac3d4d8f536e10f797d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5877372233aff4096d7076d4bfeea2') in 0.010299 seconds
-  Import took 0.016425 seconds .
+  Time since last request: 0.000198 seconds.
+  path: Assets/Pixelation/Example/Materials/Cube0.mat
+  artifactKey: Guid(eb5f236ff5c587a459cc5c8b3ae142f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelation/Example/Materials/Cube0.mat using Guid(eb5f236ff5c587a459cc5c8b3ae142f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad24d046b633784131011cf70eee3f0a') in 0.658059 seconds
+  Import took 0.667995 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.850435 seconds.
-  path: Assets/Materials/Cuadros/Cuadro6/Cuadro6
-  artifactKey: Guid(8c90144d0c5ff7a4ab50879d7a166864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro6/Cuadro6 using Guid(8c90144d0c5ff7a4ab50879d7a166864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cde4555db0cb0e5ccf8c03cb11ff4b5') in 0.002729 seconds
-  Import took 0.017959 seconds .
+  Time since last request: 0.000191 seconds.
+  path: Assets/Materials/Cuadros/Cuadro2/Cuadro2/Cuadro2.mat
+  artifactKey: Guid(0c7ce7a34e59d3f4d90cbb3b4e29cdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cuadros/Cuadro2/Cuadro2/Cuadro2.mat using Guid(0c7ce7a34e59d3f4d90cbb3b4e29cdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2dd14bab25bdf6dc71a1a973f24914e') in 0.030412 seconds
+  Import took 0.046762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Materials/Cuadros/Cuadro6/Cuadro6/Cuadro6.mat
+  artifactKey: Guid(cd276f8d0a3f6584980a78e90c705c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cuadros/Cuadro6/Cuadro6/Cuadro6.mat using Guid(cd276f8d0a3f6584980a78e90c705c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea711f799e1e21af375f973e99ae06a') in 0.024799 seconds
+  Import took 0.035525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Materials/Cuadros/Cuadro3/Cuadro3.fbx
+  artifactKey: Guid(e85f0ee0d0f3adc41b498fd4e9197e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cuadros/Cuadro3/Cuadro3.fbx using Guid(e85f0ee0d0f3adc41b498fd4e9197e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76807acfd060d7bab3983f832edc92d7') in 0.027278 seconds
+  Import took 0.032420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Materials/Cuadros/Cuadro6/Cuadro6.fbx
+  artifactKey: Guid(f81074d96d44bbe4b9ef40634c29f039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cuadros/Cuadro6/Cuadro6.fbx using Guid(f81074d96d44bbe4b9ef40634c29f039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b461593bec6a938b6936cdd783be7c64') in 0.024924 seconds
+  Import took 0.050610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Pixelation/Example/Materials/Cube2.mat
+  artifactKey: Guid(debe6ad1fd16bad409b424c2b1e46c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelation/Example/Materials/Cube2.mat using Guid(debe6ad1fd16bad409b424c2b1e46c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd71b946bee3de5269d827b3d971c831') in 0.017786 seconds
+  Import took 0.034443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Materials/Cuadros/Cuadro4/Cuadro4.fbx
+  artifactKey: Guid(47c27f1e1fe49a249a6dbeb6a6132323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cuadros/Cuadro4/Cuadro4.fbx using Guid(47c27f1e1fe49a249a6dbeb6a6132323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048317adc722c44c1982315864400ae5') in 0.025641 seconds
+  Import took 0.041114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Materials/Cuadros/Cuadro2/Cuadro2.fbx
+  artifactKey: Guid(2850e76a232f4814697bf8f9855db915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cuadros/Cuadro2/Cuadro2.fbx using Guid(2850e76a232f4814697bf8f9855db915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7812d506a8c1670fa4909f96b5598f0') in 0.017730 seconds
+  Import took 0.031459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Materials/Cuadros/Cuadro 1/Cuadro1.fbx
+  artifactKey: Guid(a59c9f6916277e945b0aa7d76d8312c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cuadros/Cuadro 1/Cuadro1.fbx using Guid(a59c9f6916277e945b0aa7d76d8312c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63eb00f079081477946a9f8b29ce26a9') in 0.023380 seconds
+  Import took 0.028356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Materials/Cuadros/Cuadro3/Cuadro3/Cuadro3.mat
+  artifactKey: Guid(970874abf3484ad4cacad5eeb7dd8102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cuadros/Cuadro3/Cuadro3/Cuadro3.mat using Guid(970874abf3484ad4cacad5eeb7dd8102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0701f77315e639150e7441615468d2c') in 0.016679 seconds
+  Import took 0.028245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Materials/Cuadros/Cuadro5/Cuadro5.fbx
+  artifactKey: Guid(7831bf260d3e36a46bf17811a273f6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cuadros/Cuadro5/Cuadro5.fbx using Guid(7831bf260d3e36a46bf17811a273f6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28f81401942bf69e81c1db708712137') in 0.025231 seconds
+  Import took 0.031169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/RecursosVarios/work-bench-with-tools/source/WWT.fbx
+  artifactKey: Guid(62d98e09bc8bac746baf045555f6bf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/work-bench-with-tools/source/WWT.fbx using Guid(62d98e09bc8bac746baf045555f6bf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8821b5c730f37b0f25fa2c96a44931f1') in 0.032069 seconds
+  Import took 0.037216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Materials/Cuadros/Cuadro5/Cuadro5/Cuadro5.mat
+  artifactKey: Guid(cd32e0cc9a6c603409f79df303b572ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cuadros/Cuadro5/Cuadro5/Cuadro5.mat using Guid(cd32e0cc9a6c603409f79df303b572ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aebd2badab2d51198a32eb530789299') in 0.022774 seconds
+  Import took 0.039010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Pixelation/Example/Materials/Cube1.mat
+  artifactKey: Guid(c5ecf711475aa7047a0d0a381d3f7a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelation/Example/Materials/Cube1.mat using Guid(c5ecf711475aa7047a0d0a381d3f7a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966a2c88b1175881ce790e7cf50bd539') in 0.019017 seconds
+  Import took 0.025296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.119477 seconds.
+  path: Assets/RecursosVarios/Cuco/CucoAnim.fbx
+  artifactKey: Guid(87e02f174e11b8c4796fa502a63f7018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Cuco/CucoAnim.fbx using Guid(87e02f174e11b8c4796fa502a63f7018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd23814edbfe0c0899d5bfbda6f6319') in 0.750329 seconds
+  Import took 0.765654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 527.644352 seconds.
+  path: Assets/RecursosVarios/Cuco/CucoAnim.fbx
+  artifactKey: Guid(87e02f174e11b8c4796fa502a63f7018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Cuco/CucoAnim.fbx using Guid(87e02f174e11b8c4796fa502a63f7018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6691a97c598d29e99f44fa6c1f1d965e') in 0.191761 seconds
+  Import took 0.209382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.384510 seconds.
+  path: Assets/Texturas/CumCock
+  artifactKey: Guid(0665845098389504a84244be4fdaa560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/CumCock using Guid(0665845098389504a84244be4fdaa560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d678a764741bb74fa31e76aaa39786') in 0.007928 seconds
+  Import took 0.039009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 344.256968 seconds.
+  path: Assets/RecursosVarios/Cuco/Take 001.anim
+  artifactKey: Guid(f9d2072ff4c0e764ea1287bd0714f3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Cuco/Take 001.anim using Guid(f9d2072ff4c0e764ea1287bd0714f3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34482c93c694db1ca8b30fb62e7050a2') in 0.015256 seconds
+  Import took 0.021772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001140 seconds.
+  path: Assets/RecursosVarios/Cuco/Take 001.anim
+  artifactKey: Guid(f9d2072ff4c0e764ea1287bd0714f3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Cuco/Take 001.anim using Guid(f9d2072ff4c0e764ea1287bd0714f3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34482c93c694db1ca8b30fb62e7050a2') in 0.008575 seconds
+  Import took 0.014755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.739571 seconds.
+  path: Assets/RecursosVarios/Cuco/CucoAnim.fbx
+  artifactKey: Guid(87e02f174e11b8c4796fa502a63f7018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Cuco/CucoAnim.fbx using Guid(87e02f174e11b8c4796fa502a63f7018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93463937d42cdc1fc8f736beb737cd36') in 0.202547 seconds
+  Import took 0.209066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.378316 seconds.
+  path: Assets/RecursosVarios/Cuco/CucoAnim.fbx
+  artifactKey: Guid(87e02f174e11b8c4796fa502a63f7018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Cuco/CucoAnim.fbx using Guid(87e02f174e11b8c4796fa502a63f7018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ac6d0d6c49c92d871c91b12e720b63') in 0.173467 seconds
+  Import took 0.180323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.483395 seconds.
+  path: Assets/RecursosVarios/Cuco/CucoAnim.fbx
+  artifactKey: Guid(87e02f174e11b8c4796fa502a63f7018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Cuco/CucoAnim.fbx using Guid(87e02f174e11b8c4796fa502a63f7018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49db27e5d388915918661e07616e9f53') in 0.179007 seconds
+  Import took 0.185800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.575796 seconds.
+  path: Assets/RecursosVarios/Cuco/OpenCuco.anim
+  artifactKey: Guid(f9d2072ff4c0e764ea1287bd0714f3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Cuco/OpenCuco.anim using Guid(f9d2072ff4c0e764ea1287bd0714f3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6833e8ff82cdff66ab179cf61b7b9ac') in 0.012781 seconds
+  Import took 0.017916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.528820 seconds.
+  path: Assets/RecursosVarios/Cuco/Take 001 (1).anim
+  artifactKey: Guid(a9747c576015b4049ae3b5abf76efbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Cuco/Take 001 (1).anim using Guid(a9747c576015b4049ae3b5abf76efbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841509e94b432fd212ea13e60f95130b') in 0.008662 seconds
+  Import took 0.020334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.398012 seconds.
+  path: Assets/RecursosVarios/Cuco/ColseCuco.anim
+  artifactKey: Guid(a9747c576015b4049ae3b5abf76efbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Cuco/ColseCuco.anim using Guid(a9747c576015b4049ae3b5abf76efbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4826ed7b7018263bd6c59a811dc1f141') in 0.007170 seconds
+  Import took 0.017825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.901458 seconds.
+  path: Assets/RecursosVarios/Cuco/CucoAnims
+  artifactKey: Guid(a8bf13e49f122c54e81d69a872d192cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RecursosVarios/Cuco/CucoAnims using Guid(a8bf13e49f122c54e81d69a872d192cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb0f3c49d36f68e83c9a83389dff190') in 0.007795 seconds
+  Import took 0.013645 seconds .
 
