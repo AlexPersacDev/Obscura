@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
 
     bool haveChestKey;
     bool haveDoorKey;
+    bool ChestOpen;
 
     [Header("BathMap")]
     BathMap bMap;
@@ -32,6 +33,9 @@ public class GameManager : MonoBehaviour
 
     [Header("Drawer")]
     bool isOpen = false;
+
+    [Header("Clocks")]
+    [SerializeField] GameObject cuco;
     // Start is called before the first frame update
     void Start()
     {
@@ -58,9 +62,19 @@ public class GameManager : MonoBehaviour
     public void OpeningBaul(GameObject baul)//recojo el baul por entrada
     {
         Animator baulAnim = baul.GetComponent<Animator>();//pillo su animator
-        baulAnim.SetTrigger("Opening");//activo la animación
-        baul.gameObject.layer = 0; //deja de ser interactuable
-        baul.GetComponent<Collider>().enabled = false;
+        if (!ChestOpen)
+        {
+            baulAnim.SetTrigger("Opening");//activo la animación
+            ChestOpen = true;
+        }
+        else
+        {
+            baulAnim.SetTrigger("Closing");//activo la animación
+            ChestOpen = false;
+        }
+        
+        //baul.gameObject.layer = 0; //deja de ser interactuable
+        //baul.GetComponent<Collider>().enabled = false;
     }
     public void InteractuarCajaFuerte()
     {
@@ -140,6 +154,13 @@ public class GameManager : MonoBehaviour
     public void PokerCard(GameObject card)
     {
         Destroy(card);
+    }
+
+    public void ClockOnTime()
+    {
+        Animator cucoAnim = cuco.GetComponent<Animator>();
+        cucoAnim.SetTrigger("Opening");
+        //cuco.layer = 0;
     }
     public void ObjetoEnInventario(GameObject objetoRecogido)
     {

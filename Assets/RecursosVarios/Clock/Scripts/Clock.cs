@@ -22,21 +22,23 @@ public class Clock : MonoBehaviour {
     float rotationHours;
     float rotationMinutes;
     float rotationSeconds;
-    [SerializeField] GameObject gM;
+    [SerializeField] GameManager gM;
 
 void Start() 
 {
 	//-- set real time
-	if (realTime)
-	{
-		hour=System.DateTime.Now.Hour;
-		minutes=System.DateTime.Now.Minute;
-		seconds=System.DateTime.Now.Second;
-	}
+	//if (realTime)
+	//{
+ //           hour = System.DateTime.Now.Hour;
+ //           minutes = System.DateTime.Now.Minute;
+ //           seconds = System.DateTime.Now.Second;
+ //   }
 }
 
 void Update() 
 {
+        SetRealTime();
+        IsOnTime();
     //-- calculate time
     msecs += Time.deltaTime * clockSpeed;
     if(msecs >= 1.0f)
@@ -72,9 +74,15 @@ void Update()
 
 public void IsOnTime()
 {
-        if (rotationHours == 0 && rotationMinutes >= 180)
+        if ((rotationHours >= 0 && rotationHours <=29.5f) && rotationMinutes >= -5f)
         {
-            gM: ClockOnTime();
+            gM.ClockOnTime();
         }
 }
+    public void SetRealTime()
+    {
+        hour = System.DateTime.Now.Hour;
+        minutes = System.DateTime.Now.Minute;
+        seconds = System.DateTime.Now.Second;
+    }
 }
