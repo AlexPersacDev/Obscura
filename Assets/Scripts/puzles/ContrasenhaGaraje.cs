@@ -6,7 +6,7 @@ using Cinemachine;
 public class ContrasenhaGaraje : MonoBehaviour
 {
     
-    //puerta garaje 7627
+    //puerta garaje 269
 
     [SerializeField] string contra;
     string num = null;
@@ -29,11 +29,15 @@ public class ContrasenhaGaraje : MonoBehaviour
     [SerializeField] GameObject puerta;
     Animator animPuerta;
 
+    int cuentaNums = -1;
+   
+
     private void Start()
     {
         animRueda = contraGarajeOBJ.GetComponent<Animator>();
         animPuerta = puerta.GetComponent<Animator>();
         //animCajaFuerte = cajaFuerte.GetComponent<Animator>();
+       
     }
     void Update()
     {
@@ -42,7 +46,18 @@ public class ContrasenhaGaraje : MonoBehaviour
     public void Codigo(string numeros)
     {
         index++;
-        num += numeros;
+        cuentaNums++;
+        if (cuentaNums == 3)
+        {
+            num = null;
+            num = numeros;
+            cuentaNums = 0;
+        }
+        else
+        {
+
+          num += numeros;
+        }
         Debug.Log("" + num);
         
     }
@@ -63,6 +78,7 @@ public class ContrasenhaGaraje : MonoBehaviour
             animRueda.SetTrigger("AbriendoCaja");
             
         }
+      
         //else//se resetea el num
         //{
         //    index++;
@@ -123,5 +139,12 @@ public class ContrasenhaGaraje : MonoBehaviour
     public void PresionarNueve()
     {
         animRueda.SetTrigger("9");
+    }
+    void ResetearNumero()
+    {
+        if (cuentaNums > 3)
+        {
+            num = null;
+        }
     }
 }
