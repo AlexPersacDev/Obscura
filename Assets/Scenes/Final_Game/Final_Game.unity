@@ -20060,6 +20060,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 7ea765cb44447094ab0aef02257cb821, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f35b528ca4e36fc44a77c42cec5d7b6b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ea765cb44447094ab0aef02257cb821, type: 3}
 --- !u!1001 &1411846518
@@ -39796,6 +39800,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1637166329}
     m_Modifications:
+    - target: {fileID: 7145879551795754382, guid: 39dfcad006633be45bd7f48c4344019c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cd32e0cc9a6c603409f79df303b572ab, type: 2}
+    - target: {fileID: 7145879552132607060, guid: 39dfcad006633be45bd7f48c4344019c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 970874abf3484ad4cacad5eeb7dd8102, type: 2}
+    - target: {fileID: 7145879552543754705, guid: 39dfcad006633be45bd7f48c4344019c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0c7ce7a34e59d3f4d90cbb3b4e29cdc2, type: 2}
+    - target: {fileID: 7145879552773301353, guid: 39dfcad006633be45bd7f48c4344019c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cd276f8d0a3f6584980a78e90c705c97, type: 2}
     - target: {fileID: 7145879553218310730, guid: 39dfcad006633be45bd7f48c4344019c, type: 3}
       propertyPath: m_Name
       value: FondoPuzzleFotos
@@ -39844,6 +39864,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7145879553628364416, guid: 39dfcad006633be45bd7f48c4344019c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fbc668eaae243fc4d934ff4c1280ce23, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39dfcad006633be45bd7f48c4344019c, type: 3}
 --- !u!4 &7145917531998029758
