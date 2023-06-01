@@ -5,10 +5,10 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: 1827226128182048838
-    second: Take 001
+    second: Open
   - first:
       74: -5405653242291790180
-    second: Take 001 (1)
+    second: Close
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -38,10 +38,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: Open
       takeName: Take 001
       internalID: 0
-      firstFrame: 0
+      firstFrame: 40
       lastFrame: 230
       wrapMode: 0
       orientationOffsetY: 0
@@ -67,7 +67,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Take 001 (1)
+      name: Close
       takeName: Take 001
       internalID: 0
       firstFrame: 230
