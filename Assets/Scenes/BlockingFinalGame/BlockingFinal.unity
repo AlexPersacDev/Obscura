@@ -31108,7 +31108,7 @@ GameObject:
   - component: {fileID: 7150465727477667568}
   - component: {fileID: 694641675}
   m_Layer: 0
-  m_Name: MainCamera
+  m_Name: CamaraCinematic
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
