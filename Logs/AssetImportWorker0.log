@@ -100,3 +100,4 @@ Received Import Request.
 Start importing Assets/Scripts/CanvasManager.cs using Guid(e4433fe38bb4e1d47b792e7e21f4f413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5139d770d25aaefd6fddd33ca93d1165') in 0.002651 seconds
   Import took 0.009271 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
