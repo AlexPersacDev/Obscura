@@ -4,26 +4,26 @@ OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'es' Phy
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\2020.3.6f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Paula/Programacion/Nueva carpeta (2)/Scopophobia_00
+D:/AlexPereira/Programacion/Scopophobia_00
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52221
-Successfully changed project path to: D:/Paula/Programacion/Nueva carpeta (2)/Scopophobia_00
-D:/Paula/Programacion/Nueva carpeta (2)/Scopophobia_00
+52605
+Successfully changed project path to: D:/AlexPereira/Programacion/Scopophobia_00
+D:/AlexPereira/Programacion/Scopophobia_00
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 58.52 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 88.98 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
-[Subsystems] Discovering subsystems at path C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Paula/Programacion/Nueva carpeta (2)/Scopophobia_00/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/AlexPereira/Programacion/Scopophobia_00/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -33,158 +33,70 @@ Direct3D:
     Driver:   30.0.14.7168
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003312 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003304 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.52 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 59.76 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.772 seconds
+- Completed reload, in  2.760 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001630 seconds.
+Registered in 0.001555 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 63.16 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
+- Completed reload, in  1.111 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2748 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.2 MB.
-System memory in use after: 138.4 MB.
+System memory in use before: 138.1 MB.
+System memory in use after: 138.3 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3197.
-Total: 2.498100 ms (FindLiveObjects: 0.280300 ms CreateObjectMapping: 0.131000 ms MarkObjects: 1.996400 ms  DeleteObjects: 0.089300 ms)
+Total: 2.434800 ms (FindLiveObjects: 0.293900 ms CreateObjectMapping: 0.133300 ms MarkObjects: 1.908100 ms  DeleteObjects: 0.097900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/Cuadros
-  artifactKey: Guid(954fcee8e9555eb439d1ba310de1f4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros using Guid(954fcee8e9555eb439d1ba310de1f4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2056494ef0f859e97a6ff859a5de6e5') in 0.014000 seconds
-  Import took 0.047267 seconds .
+  path: Assets/Scripts/SistemaGuardado.cs
+  artifactKey: Guid(500a475319811164fbcc16711a4069ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SistemaGuardado.cs using Guid(500a475319811164fbcc16711a4069ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cabf65eefcd649a6bde3abbf970e7a') in 0.122391 seconds
+  Import took 0.135252 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 73.898568 seconds.
-  path: Assets/Materials/Cuadros/Cuadro 1
-  artifactKey: Guid(4477bf1b607595849871dccfe23e5e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro 1 using Guid(4477bf1b607595849871dccfe23e5e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b2b0af48833e061e2f619ce41eafcf') in 0.008945 seconds
-  Import took 0.029396 seconds .
+  Time since last request: 394.624828 seconds.
+  path: Assets/Scripts/SistemaGuardado.cs
+  artifactKey: Guid(500a475319811164fbcc16711a4069ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SistemaGuardado.cs using Guid(500a475319811164fbcc16711a4069ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df5cf5537bb3d196d604b391d418e3f') in 0.002052 seconds
+  Import took 0.011521 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.969870 seconds.
-  path: Assets/Materials/Cuadros/Cuadro 1/Cuadro1
-  artifactKey: Guid(80d3e229f1c9fee4dafd6e03437b964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro 1/Cuadro1 using Guid(80d3e229f1c9fee4dafd6e03437b964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5c09a1e5ab67d8948b4c91d6daba96') in 0.007125 seconds
-  Import took 0.023939 seconds .
+  Time since last request: 585.989821 seconds.
+  path: Assets/Scripts/CanvasManager.cs
+  artifactKey: Guid(e4433fe38bb4e1d47b792e7e21f4f413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CanvasManager.cs using Guid(e4433fe38bb4e1d47b792e7e21f4f413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5139d770d25aaefd6fddd33ca93d1165') in 0.010185 seconds
+  Import took 0.026518 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.297559 seconds.
-  path: Assets/Materials/Cuadros/Cuadro2
-  artifactKey: Guid(e9a49215831bf5d45b87f9a0eb33b573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro2 using Guid(e9a49215831bf5d45b87f9a0eb33b573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9a4eb6883c8809985d4ffaaab27f40') in 0.007553 seconds
-  Import took 0.025014 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.611233 seconds.
-  path: Assets/Materials/Cuadros/Cuadro2/Cuadro2
-  artifactKey: Guid(c193ed8d9d1ee614bb93c3f7c6ade231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro2/Cuadro2 using Guid(c193ed8d9d1ee614bb93c3f7c6ade231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb02296138d964b8b92a71cf10cf38cb') in 0.002834 seconds
-  Import took 0.017612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.386295 seconds.
-  path: Assets/Materials/Cuadros/Cuadro3
-  artifactKey: Guid(88936c50604538f41b6a99e7a9d98f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro3 using Guid(88936c50604538f41b6a99e7a9d98f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73230f494ef385736fefc8480ec5d099') in 0.009075 seconds
-  Import took 0.031841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.743767 seconds.
-  path: Assets/Materials/Cuadros/Cuadro3/Cuadro3
-  artifactKey: Guid(17d9cca8c0a56e64b8d85382a759c393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro3/Cuadro3 using Guid(17d9cca8c0a56e64b8d85382a759c393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136deece17938258ae2c32998553c6b5') in 0.002448 seconds
-  Import took 0.015509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.658135 seconds.
-  path: Assets/Materials/Cuadros/Cuadro3/Cuadro3/lambert1_Roughness.png
-  artifactKey: Guid(7608ecb2923944841b87ea14cf97719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro3/Cuadro3/lambert1_Roughness.png using Guid(7608ecb2923944841b87ea14cf97719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d78a5b6f813225b17a6bd99f145f7fd') in 0.165656 seconds
-  Import took 0.174155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.600176 seconds.
-  path: Assets/Materials/Cuadros/Cuadro4
-  artifactKey: Guid(75b785e8ad3ee264a95f5fd9825a6a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro4 using Guid(75b785e8ad3ee264a95f5fd9825a6a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948e4f7e09d09f81e154859052e6c604') in 0.008637 seconds
-  Import took 0.015923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.687444 seconds.
-  path: Assets/Materials/Cuadros/Cuadro4/Cuadro4
-  artifactKey: Guid(b1501c8c28c51b24b993ea74638de6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro4/Cuadro4 using Guid(b1501c8c28c51b24b993ea74638de6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b41599f98fb37094fcde1b17864a94') in 0.002316 seconds
-  Import took 0.008598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.486919 seconds.
-  path: Assets/Materials/Cuadros/Cuadro5
-  artifactKey: Guid(6337919760cfcbf4f97b28770086649a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro5 using Guid(6337919760cfcbf4f97b28770086649a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4a1bb77a70a2b84af859430e725ff2') in 0.013247 seconds
-  Import took 0.030280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.866290 seconds.
-  path: Assets/Materials/Cuadros/Cuadro5/Cuadro5
-  artifactKey: Guid(f7407b9bd56a04743840c3b07e38b63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro5/Cuadro5 using Guid(f7407b9bd56a04743840c3b07e38b63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9637df0ae2b9bb4cb8e48786ffc5653') in 0.002690 seconds
-  Import took 0.013756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000936 seconds.
-  path: Assets/Materials/Cuadros/Cuadro5/Cuadro5
-  artifactKey: Guid(f7407b9bd56a04743840c3b07e38b63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro5/Cuadro5 using Guid(f7407b9bd56a04743840c3b07e38b63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9637df0ae2b9bb4cb8e48786ffc5653') in 0.002110 seconds
-  Import took 0.008621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.863587 seconds.
-  path: Assets/Materials/Cuadros/Cuadro6
-  artifactKey: Guid(298972849aeac3d4d8f536e10f797d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro6 using Guid(298972849aeac3d4d8f536e10f797d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5877372233aff4096d7076d4bfeea2') in 0.010299 seconds
-  Import took 0.016425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.850435 seconds.
-  path: Assets/Materials/Cuadros/Cuadro6/Cuadro6
-  artifactKey: Guid(8c90144d0c5ff7a4ab50879d7a166864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cuadros/Cuadro6/Cuadro6 using Guid(8c90144d0c5ff7a4ab50879d7a166864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cde4555db0cb0e5ccf8c03cb11ff4b5') in 0.002729 seconds
-  Import took 0.017959 seconds .
+  Time since last request: 0.002120 seconds.
+  path: Assets/Scripts/CanvasManager.cs
+  artifactKey: Guid(e4433fe38bb4e1d47b792e7e21f4f413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CanvasManager.cs using Guid(e4433fe38bb4e1d47b792e7e21f4f413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5139d770d25aaefd6fddd33ca93d1165') in 0.002651 seconds
+  Import took 0.009271 seconds .
 
