@@ -11,4 +11,9 @@ public class CinematicManager : MonoBehaviour
     {
         look.enabled = false;
     }
+    public void Cumera()
+    {
+        cameraPlayer.SetActive(false);
+        camera2.SetActive(true);
+    }
 }

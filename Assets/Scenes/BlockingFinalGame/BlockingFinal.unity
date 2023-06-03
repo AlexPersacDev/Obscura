@@ -5753,7 +5753,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &551813516
 MonoBehaviour:
@@ -5767,9 +5767,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc603e1fb5b802d489ec6eaa9cf2d212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  look: {fileID: 0}
-  cameraPlayer: {fileID: 0}
-  camera2: {fileID: 0}
+  look: {fileID: 2002933407}
+  cameraPlayer: {fileID: 2002933404}
+  camera2: {fileID: 769788388}
 --- !u!1001 &553029806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5851,7 +5851,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &556312317
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5940,6 +5940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f78797668cec2f4db257ca8f8b1844c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cinematicManager: {fileID: 551813516}
 --- !u!1001 &557269288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8150,7 +8151,7 @@ GameObject:
   - component: {fileID: 769788390}
   - component: {fileID: 769788389}
   m_Layer: 0
-  m_Name: ZoomCajaFuerte (1)
+  m_Name: MostroCamara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8204,7 +8205,7 @@ Transform:
   m_Children:
   - {fileID: 1542922771}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 6.875, y: 268.823, z: 0}
 --- !u!1001 &770316619
 PrefabInstance:
@@ -21056,7 +21057,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2002933405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23575,7 +23576,7 @@ Transform:
   - {fileID: 5465940246287067472}
   - {fileID: 2707245409775380778}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 87.444, z: 0}
 --- !u!4 &543450652966950819
 Transform:
@@ -32027,8 +32028,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7150465727477667583}
-  m_LocalRotation: {x: -0.04196294, y: 0.7130447, z: -0.04283448, w: -0.6985497}
-  m_LocalPosition: {x: 9.072, y: 1.908, z: 10.256}
+  m_LocalRotation: {x: 0, y: 0.7063791, z: 0, w: 0.70783377}
+  m_LocalPosition: {x: 7.310057, y: 2.11, z: 10.62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7148635877015450336}
