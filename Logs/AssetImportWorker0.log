@@ -1,0 +1,260 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.2965; Version 2009; 64bit' Language: 'es' Physical Memory: 32683 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/34603/Desktop/Clase/ProyectoProgramacion/Scopophobia_00
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60483
+Successfully changed project path to: C:/Users/34603/Desktop/Clase/ProyectoProgramacion/Scopophobia_00
+C:/Users/34603/Desktop/Clase/ProyectoProgramacion/Scopophobia_00
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 41.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/34603/Desktop/Clase/ProyectoProgramacion/Scopophobia_00/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6650 XT (ID=0x73ef)
+    Vendor:   
+    VRAM:     8146 MB
+    Driver:   31.0.12027.7000
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001398 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001045 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 40.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.664 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.2 MB.
+System memory in use after: 138.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3199.
+Total: 2.273500 ms (FindLiveObjects: 0.299200 ms CreateObjectMapping: 0.128000 ms MarkObjects: 1.781100 ms  DeleteObjects: 0.064200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Animacion Final/Polaroid
+  artifactKey: Guid(7f03029b0fa9f0c42bb7dfc068422e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animacion Final/Polaroid using Guid(7f03029b0fa9f0c42bb7dfc068422e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461977b0e37f4ae0a7a478f67abcaa8f') in 0.008872 seconds
+  Import took 0.012404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.737040 seconds.
+  path: Assets/Animacion Final/Polaroid/FinalCinematicScripts
+  artifactKey: Guid(0adfbf33ea632a64f8733c7a33eb9a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animacion Final/Polaroid/FinalCinematicScripts using Guid(0adfbf33ea632a64f8733c7a33eb9a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde0f544ba618aad685a27792d9e00f2') in 0.005902 seconds
+  Import took 0.009551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.425134 seconds.
+  path: Assets/Animacion Final/Polaroid/FinalCinematicScripts/Flash.cs
+  artifactKey: Guid(2f78797668cec2f4db257ca8f8b1844c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animacion Final/Polaroid/FinalCinematicScripts/Flash.cs using Guid(2f78797668cec2f4db257ca8f8b1844c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b101a45633f6df8d1b60fed6387b9e') in 0.027275 seconds
+  Import took 0.031695 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001083 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.632 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2593 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.4 MB.
+System memory in use after: 126.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3203.
+Total: 1.715100 ms (FindLiveObjects: 0.238100 ms CreateObjectMapping: 0.055200 ms MarkObjects: 1.408200 ms  DeleteObjects: 0.013000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001240 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.653 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2593 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.5 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3206.
+Total: 1.901900 ms (FindLiveObjects: 0.305800 ms CreateObjectMapping: 0.066100 ms MarkObjects: 1.515000 ms  DeleteObjects: 0.014000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.674366 seconds.
+  path: Assets/Animacion Final/Polaroid/FinalCinematicScripts/Flash.cs
+  artifactKey: Guid(2f78797668cec2f4db257ca8f8b1844c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animacion Final/Polaroid/FinalCinematicScripts/Flash.cs using Guid(2f78797668cec2f4db257ca8f8b1844c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2adca7bba9ea90567d2fb810c9965db9') in 0.004679 seconds
+  Import took 0.008892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.393848 seconds.
+  path: Assets/Animacion Final/Polaroid/FinalCinematicScripts/CinematicManager.cs
+  artifactKey: Guid(cc603e1fb5b802d489ec6eaa9cf2d212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animacion Final/Polaroid/FinalCinematicScripts/CinematicManager.cs using Guid(cc603e1fb5b802d489ec6eaa9cf2d212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731e633d40f5382700a05e988cc5f2d0') in 0.006299 seconds
+  Import took 0.011081 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001132 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.614 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2594 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3210.
+Total: 1.746300 ms (FindLiveObjects: 0.223500 ms CreateObjectMapping: 0.056500 ms MarkObjects: 1.451200 ms  DeleteObjects: 0.014500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.686750 seconds.
+  path: Assets/Anims/FadeOut.anim
+  artifactKey: Guid(cce5148cfce49d947b7bcaa59a3c174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/FadeOut.anim using Guid(cce5148cfce49d947b7bcaa59a3c174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9ed61efbccb5e6cf372a2e60d772d6') in 0.018242 seconds
+  Import took 0.022292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.307435 seconds.
+  path: Assets/Anims/Flash.anim
+  artifactKey: Guid(dd2c23dcd57bad54c936bf10918144f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/Flash.anim using Guid(dd2c23dcd57bad54c936bf10918144f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0c755dab535aac250607b7172189a4') in 0.002339 seconds
+  Import took 0.006329 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001265 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.593 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2594 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3213.
+Total: 1.823100 ms (FindLiveObjects: 0.232800 ms CreateObjectMapping: 0.084200 ms MarkObjects: 1.487900 ms  DeleteObjects: 0.017400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001175 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.581 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2594 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3216.
+Total: 1.961000 ms (FindLiveObjects: 0.248800 ms CreateObjectMapping: 0.086700 ms MarkObjects: 1.610200 ms  DeleteObjects: 0.014600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001216 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.601 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2594 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3219.
+Total: 1.862700 ms (FindLiveObjects: 0.244600 ms CreateObjectMapping: 0.055400 ms MarkObjects: 1.547500 ms  DeleteObjects: 0.014500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 685.845715 seconds.
+  path: Assets/Animacion Final/Polaroid/FinalCinematicScripts/monster@Zombie Scream.fbx
+  artifactKey: Guid(3397781f0707e6a41953248b2bb8b1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animacion Final/Polaroid/FinalCinematicScripts/monster@Zombie Scream.fbx using Guid(3397781f0707e6a41953248b2bb8b1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62276a0a5749e6f3e96dad597c9cbff1') in 0.307146 seconds
+  Import took 0.311611 seconds .
+
