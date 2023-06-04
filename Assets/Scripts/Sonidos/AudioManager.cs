@@ -5,6 +5,8 @@ using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
 {
+    public static AudioManager instance;
+
     [Header("SFX")]
     [SerializeField] AudioClip[] audioClips;
     AudioClip currentClip;
@@ -13,9 +15,20 @@ public class AudioManager : MonoBehaviour
     [Header("Music")]
     [SerializeField] AudioClip[] musicClips;
     AudioClip currentMusic;
-    [SerializeField]AudioSource aSMusic; 
+    [SerializeField]AudioSource aSMusic;
 
-
+    private void Awake()
+    {
+        if (instance==null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     void Start()
     {
         StartCoroutine(RandomSound());

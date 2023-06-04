@@ -17,6 +17,8 @@ public class Player : MonoBehaviour, IDamagable
     //Gravity
     Vector3 moveY = Vector3.up;//recoge la info del mov en y tanto gravedad como salto
 
+    [SerializeField] GameObject menuOpciones;
+    [SerializeField] CanvasManager cM;
     void Start()
     {
         controlerPlayer = GetComponent<CharacterController>();
@@ -40,6 +42,13 @@ public class Player : MonoBehaviour, IDamagable
         {
             crouching = false;
             Crouch();
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            menuOpciones.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = false;
+            cM.EnableMirilla();
         }
     }
 

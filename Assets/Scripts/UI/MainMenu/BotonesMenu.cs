@@ -21,7 +21,7 @@ public class BotonesMenu : MonoBehaviour
 
     public void Empezar()
     {
-        SceneManager.LoadScene("Beta");
+        SceneManager.LoadScene("Final_Game");
     }
     public void Opciones()
     {
