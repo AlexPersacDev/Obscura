@@ -25,7 +25,7 @@ public class PlayerLook : MonoBehaviour
 
     List<GameObject> photos = new List<GameObject>();
     GameObject[] brokenPhotos = new GameObject[3];
-    int pIndex;
+    [SerializeField] int pIndex;
     [SerializeField] GameObject photo1;
     int contadorTrozos;
 
@@ -176,6 +176,11 @@ public class PlayerLook : MonoBehaviour
                 {
                     photos.Add(photo1);//añadir uno al array de foto
                     Destroy(currentInteractuable);//deberia eliminarlo de la escena
+                    pIndex++;
+                    if (pIndex >= 6)
+                    {
+                        gM.InstanciatePolaroid();
+                    }
                     //gM.ObjetoEnInventario(currentInteractuable);
                 }
                 else if (currentInteractuable.CompareTag("Baul") && gM.ChestKey(currentInteractuable))//compruebo si se tiene la llave
@@ -246,6 +251,10 @@ public class PlayerLook : MonoBehaviour
                 gM.LetterTable();
                 other.enabled = false;
             }
+        }
+        if (other.CompareTag("TriggerPolaroid"))
+        {
+            gM.FinalCIneamic();
         }
 
     }

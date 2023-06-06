@@ -13,11 +13,11 @@ public class Flash : MonoBehaviour
     private void Start()
     {
         anim = GetComponent<Animator>();
-        activar = true;
+        //activar = true;
     }
     void Update()
     {
-        if (activar)
+        if (!activar)
         {
             anim.SetBool("Activar", true);
         }
@@ -32,7 +32,7 @@ public class Flash : MonoBehaviour
     }
     private void OnDestroy()
     {
-        monster.Play();
         black.BlackOuting();
+        monster.Play();
     }
 }

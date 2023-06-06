@@ -36,6 +36,12 @@ public class GameManager : MonoBehaviour
 
     [Header("Clocks")]
     [SerializeField] GameObject cuco;
+
+    [Header("Polaroid")]
+    [SerializeField] GameObject polaroid;
+    [SerializeField] GameObject monster;
+    [SerializeField] GameObject flash;
+    [SerializeField] GameObject cinematicManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -162,10 +168,10 @@ public class GameManager : MonoBehaviour
         cucoAnim.SetTrigger("Opening");
         //cuco.layer = 0;
     }
-    public void ObjetoEnInventario(GameObject objetoRecogido)
-    {
-        //aqui va el metodo del inventario
-    }
+    //public void ObjetoEnInventario(GameObject objetoRecogido)
+    //{
+    //    //aqui va el metodo del inventario
+    //}
     public void IntercatuarContraGaraje()
     {
         playerLook.gameObject.SetActive(false);
@@ -177,6 +183,17 @@ public class GameManager : MonoBehaviour
         cM.EnableMirilla();
     }
 
+    public void InstanciatePolaroid()
+    {
+        polaroid.SetActive(true);
+    }
+
+    public void FinalCIneamic()
+    {
+        monster.SetActive(true);
+        flash.SetActive(true);
+        cinematicManager.SetActive(true);
+    }
 
 
 }

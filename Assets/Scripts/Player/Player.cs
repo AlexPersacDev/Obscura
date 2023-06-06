@@ -43,13 +43,13 @@ public class Player : MonoBehaviour, IDamagable
             crouching = false;
             Crouch();
         }
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            menuOpciones.SetActive(true);
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = false;
-            cM.EnableMirilla();
-        }
+        //else if (Input.GetKeyDown(KeyCode.Escape))
+        //{
+        //    menuOpciones.SetActive(true);
+        //    Cursor.lockState = CursorLockMode.None;
+        //    Cursor.visible = false;
+        //    cM.EnableMirilla();
+        //}
     }
 
     void Movement()

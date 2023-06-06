@@ -21,6 +21,8 @@ TagManager:
   - BathDoor
   - Card
   - ContraGaraje
+  - Polaroid
+  - TriggerPolaroid
   layers:
   - Default
   - TransparentFX

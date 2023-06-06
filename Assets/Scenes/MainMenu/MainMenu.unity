@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0.99999905, b: 0.99999905, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1616,9 +1616,9 @@ GameObject:
   - component: {fileID: 270025059}
   - component: {fileID: 270025058}
   - component: {fileID: 270025057}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: foto_trozo2
-  m_TagString: BrokenPhoto
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2452,7 +2452,7 @@ GameObject:
   - component: {fileID: 394963442}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3400,9 +3400,9 @@ GameObject:
   - component: {fileID: 564623412}
   - component: {fileID: 564623411}
   - component: {fileID: 564623410}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Bultitin_Board_Bulitin_Boards (1)
-  m_TagString: Corck
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4502,7 +4502,7 @@ GameObject:
   - component: {fileID: 692782380}
   - component: {fileID: 692782379}
   - component: {fileID: 692782378}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: suelo
   m_TagString: Untagged
   m_Icon: {fileID: 0}

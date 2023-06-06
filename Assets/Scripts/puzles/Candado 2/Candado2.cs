@@ -25,6 +25,8 @@ public class Candado2 : MonoBehaviour
     int contadorC = 0;
     int contadorD = 0;
 
+
+    bool opened = false;
     void Start()
     {
         arrayNumeros[0] = 6;
@@ -128,7 +130,7 @@ public class Candado2 : MonoBehaviour
         if (arrayNumeros[0]== contadorA&&arrayNumeros[1]==contadorB&&arrayNumeros[2]==contadorC&& arrayNumeros[3]==contadorD)
         {
             //se abre el candado
-            Debug.Log("Has abierto el candado");
+            //Debug.Log("Has abierto el candado");
             animCandado.SetBool("SeHaAbierto",true);
             playerLook.gameObject.SetActive(true);
             zoomCandado2.gameObject.SetActive(false);
@@ -136,6 +138,7 @@ public class Candado2 : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = false;
             cM.EnableMirilla();
+            //opened = true;
         }
     }
     public void Exit()
@@ -147,5 +150,8 @@ public class Candado2 : MonoBehaviour
         Cursor.visible = false;
         cM.EnableMirilla();
     }
-   
+   //public bool IsTaquillaOpened()
+   //{
+   //     return opened;
+   //}
 }
