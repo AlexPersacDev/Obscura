@@ -25,7 +25,7 @@ public class PlayerLook : MonoBehaviour
 
     List<GameObject> photos = new List<GameObject>();
     GameObject[] brokenPhotos = new GameObject[3];
-    [SerializeField] int pIndex;
+    int pIndex;
     [SerializeField] GameObject photo1;
     int contadorTrozos;
 
@@ -127,18 +127,18 @@ public class PlayerLook : MonoBehaviour
     {
         if (interacting) //si el raycast detecta interactuable 
         {
-           //currentInteractuable.GetComponent<IInteractuable>().Interact();
-            if (currentInteractuable.CompareTag("Corck") && firstLookOnCrock && !cM.CorutineOn())//si es la primera vez que miro el corcho
-            {
-                cM.StartCoroutine(cM.GenerateDialogs(2));
-                firstLookOnCrock = false;
-            }
-            else if (currentInteractuable.CompareTag("BrokenPhoto") && firstLookOnBP && !cM.CorutineOn())
-            {
-                cM.StartCoroutine(cM.GenerateDialogs(1));
-                firstLookOnBP = false;
-            }
-            else if (Input.GetKeyDown(KeyCode.E)) //y pulso E
+            //currentInteractuable.GetComponent<IInteractuable>().Interact();
+            //if (currentInteractuable.CompareTag("Corck") && firstLookOnCrock && !cM.CorutineOn())//si es la primera vez que miro el corcho
+            //{
+            //    cM.StartCoroutine(cM.GenerateDialogs(2));
+            //    firstLookOnCrock = false;
+            //}
+            //else if (currentInteractuable.CompareTag("BrokenPhoto") && firstLookOnBP && !cM.CorutineOn())
+            //{
+            //    cM.StartCoroutine(cM.GenerateDialogs(1));
+            //    firstLookOnBP = false;
+            //}
+            if (Input.GetKeyDown(KeyCode.E)) //y pulso E
             {
 
                 pressE = true;
