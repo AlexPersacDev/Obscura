@@ -4237,8 +4237,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Cr\xE9ditos\n\n\xB73D Artist\xB7\n\nAdri\xE1n Garc\xEDa\nAlejandro Hernandez\n\n\xB7Concept
-    Artist\xB7\n\nLuis Garc\xEDa\n\n\xB7Programers\xB7\n\nPaula Cuenca\nAlex Pereira"
+  m_text: "Cr\xE9ditos\n\n\xB73D Artist\xB7\n\nAdri\xE1n Garc\xEDa\nAlejandro Hernandez\n\n\xB7Dise\xF1ador\xB7\n\nLuis
+    Garc\xEDa\n\n\xB7Programers\xB7\n\nPaula Cuenca\nAlex Pereira"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e51ce7cb455c91445a2ac4f7eb55bd2c, type: 2}
   m_sharedMaterial: {fileID: -6675652209175193396, guid: e51ce7cb455c91445a2ac4f7eb55bd2c, type: 2}

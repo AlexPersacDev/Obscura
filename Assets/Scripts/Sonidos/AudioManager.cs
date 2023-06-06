@@ -46,9 +46,16 @@ public class AudioManager : MonoBehaviour
         int index = Random.Range(0, (audioClips.Length + 1)); // randomizo indice del array y lo meto en variable
         currentClip = audioClips[index];
         aS.clip = currentClip;// pone en el audio source el clip randomizado
-        aS.Play();// lazo el clip
+        aS.PlayOneShot(currentClip);
     }
-    
+    public void Music()
+    {
+        int index = Random.Range(0, (musicClips.Length + 1));
+        currentMusic = musicClips[index];
+        aSMusic.clip = currentMusic;
+        aSMusic.Play();
+    }
+
     IEnumerator RandomSound()
     {
         while (true)
@@ -64,12 +71,8 @@ public class AudioManager : MonoBehaviour
     {
         while (true)
         {
-            int index = Random.Range(0, (musicClips.Length + 1));
-            currentMusic = musicClips[index];
-            aSMusic.clip = currentMusic;
-            aSMusic.Play();
-
-            float RandomMusic= Random.Range(180, 301);
+            Music();
+            float RandomMusic= 120f;
             yield return new WaitForSeconds(RandomMusic);
             
         }
