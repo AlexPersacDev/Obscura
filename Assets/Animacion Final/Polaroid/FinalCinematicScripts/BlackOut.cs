@@ -5,6 +5,8 @@ using UnityEngine;
 public class BlackOut : MonoBehaviour
 {
     Animator anim;
+    [SerializeField] GameObject creditos;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,5 +21,9 @@ public class BlackOut : MonoBehaviour
     public void BlackOuting()
     {
         anim.SetBool("Black", true);
+    }
+    public void Creditos()
+    {
+        creditos.SetActive(true);
     }
 }
