@@ -191,8 +191,8 @@ public class PlayerLook : MonoBehaviour
                 {
                     //llamo al metodo publico del gm
                     gM.InteractuarCajaFuerte();
-                    Collider safeColl = currentInteractuable.GetComponent<Collider>();
-                    safeColl.enabled = false;
+                    //Collider safeColl = currentInteractuable.GetComponent<Collider>();
+                    //safeColl.enabled = false;
                 }
                 else if (currentInteractuable.CompareTag("ChestKey"))
                 {

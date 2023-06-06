@@ -6,7 +6,7 @@ using Cinemachine;
 public class ContrasenhaCajaFuerte : MonoBehaviour
 {
     //caja fuerte 3815
-    //puerta garaje 7627
+    //puerta garaje 269
 
     [SerializeField] string contra;
     string num = null;
@@ -25,6 +25,7 @@ public class ContrasenhaCajaFuerte : MonoBehaviour
     Animator animRueda;
 
     Animator animCajaFuerte;
+    [SerializeField] GameObject currentInteractuable;
 
     private void Start()
     {
@@ -58,7 +59,8 @@ public class ContrasenhaCajaFuerte : MonoBehaviour
 
             //animacion manivela + abrirse
             animRueda.SetTrigger("AbriendoCaja");
-            
+             Collider safeColl = currentInteractuable.GetComponent<Collider>();
+            safeColl.enabled = false;
         }
         else//se resetea el num
         {

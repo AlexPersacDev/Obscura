@@ -30,7 +30,10 @@ public class ContrasenhaGaraje : MonoBehaviour
     Animator animPuerta;
 
     int cuentaNums = -1;
-   
+
+    
+
+
 
     private void Start()
     {
@@ -76,9 +79,10 @@ public class ContrasenhaGaraje : MonoBehaviour
 
             //animacion manivela + abrirse
             animRueda.SetTrigger("AbriendoCaja");
+
             
         }
-      
+
         //else//se resetea el num
         //{
         //    index++;
